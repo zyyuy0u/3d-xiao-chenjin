@@ -150,7 +150,7 @@
         "bundle": "downloads/color.zip",
         "size": 32.0,
         "guide": "粽子單件四色_選色預覽.html",
-        "image": "assets/zongzi_multicolor_100mm/three_quarter.png",
+        "image": "assets/zongzi_multicolor_100mm/studio-three_quarter.png",
         "time": "25 小時 32 分"
       },
       {
@@ -166,7 +166,7 @@
         "bundle": "downloads/mono.zip",
         "size": 71.8,
         "guide": "粽子單件單色_模型預覽.html",
-        "image": "assets/zongzi_100mm/three_quarter.png",
+        "image": "assets/zongzi_100mm/studio-three_quarter.png",
         "time": "7 小時 56 分"
       }
     ]
