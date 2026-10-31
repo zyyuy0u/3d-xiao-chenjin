@@ -1,0 +1,89 @@
+{
+  "slicer": "Bambu Studio 2.1.1.52 official macOS CLI",
+  "printer": "Bambu Lab X1 Carbon / 0.4 mm nozzle",
+  "filament": "Bambu PLA Basic (four independently assigned slots)",
+  "assembled_objects": 1,
+  "independently_colorable_parts": 4,
+  "assignments": [
+    {
+      "part": "01 粽葉",
+      "filament": 1,
+      "preview_color": "#438D69"
+    },
+    {
+      "part": "02 臉與耳朵",
+      "filament": 2,
+      "preview_color": "#F5C39E"
+    },
+    {
+      "part": "03 頭髮、眉毛與鬍子",
+      "filament": 3,
+      "preview_color": "#27272B"
+    },
+    {
+      "part": "04 眼鏡（鏡框與鏡片）",
+      "filament": 4,
+      "preview_color": "#607F92"
+    }
+  ],
+  "layer_height_mm": 0.12,
+  "supports": true,
+  "prime_tower": true,
+  "outside_build_area": false,
+  "estimated_total_seconds": 91901,
+  "estimated_total_filament_g": 409.17,
+  "filament_usage": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#438D69",
+      "used_m": "33.48",
+      "used_g": "101.46"
+    },
+    {
+      "id": "2",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#F5C39E",
+      "used_m": "48.19",
+      "used_g": "146.05"
+    },
+    {
+      "id": "3",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#27272B",
+      "used_m": "38.08",
+      "used_g": "115.42"
+    },
+    {
+      "id": "4",
+      "tray_info_idx": "GFA00",
+      "type": "PLA",
+      "color": "#607F92",
+      "used_m": "15.26",
+      "used_g": "46.24"
+    }
+  ],
+  "material_selection_commands": {
+    "1": 182,
+    "0": 56,
+    "2": 133,
+    "3": 72
+  },
+  "max_printed_z_mm": 100.04,
+  "slicer_mesh_repair_count": 0,
+  "native_roundtrip_max_vertex_deviation_mm": 2.80875084853761e-06,
+  "slicer_warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "purge_note": "Example purge volumes; recalculate in Bambu Studio after selecting actual colors/filaments.",
+  "physical_test_print": false,
+  "print_job_sent": false,
+  "delivery_contains_cached_gcode": false
+}

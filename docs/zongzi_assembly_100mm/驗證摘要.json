@@ -1,0 +1,274 @@
+{
+  "title": "可愛陳晉 100 mm 分色組裝版",
+  "finished_parts": 8,
+  "print_plates": 4,
+  "optional_test_plate": 1,
+  "fit_type": "定位榫，單邊 0.25 mm 間隙，試裝後點膠固定",
+  "assembly_geometry": {
+    "overlaps_mm3": {
+      "01_leaves / 02_face": 0.0,
+      "01_leaves / 03_hair": 0.0,
+      "01_leaves / 04_glasses": 0.0,
+      "01_leaves / 05_brow_left": 0.0,
+      "01_leaves / 06_brow_right": 0.0,
+      "01_leaves / 07_moustache_left": 0.0,
+      "01_leaves / 08_moustache_right": 0.0,
+      "02_face / 03_hair": 0.0,
+      "02_face / 04_glasses": 0.0,
+      "02_face / 05_brow_left": 0.0,
+      "02_face / 06_brow_right": 0.0,
+      "02_face / 07_moustache_left": 0.0,
+      "02_face / 08_moustache_right": 0.0,
+      "03_hair / 04_glasses": 0.0,
+      "03_hair / 05_brow_left": 0.0,
+      "03_hair / 06_brow_right": 0.0,
+      "03_hair / 07_moustache_left": 0.0,
+      "03_hair / 08_moustache_right": 0.0,
+      "04_glasses / 05_brow_left": 0.0,
+      "04_glasses / 06_brow_right": 0.0,
+      "04_glasses / 07_moustache_left": 0.0,
+      "04_glasses / 08_moustache_right": 0.0,
+      "05_brow_left / 06_brow_right": 0.0,
+      "05_brow_left / 07_moustache_left": 0.0,
+      "05_brow_left / 08_moustache_right": 0.0,
+      "06_brow_right / 07_moustache_left": 0.0,
+      "06_brow_right / 08_moustache_right": 0.0,
+      "07_moustache_left / 08_moustache_right": 0.0
+    },
+    "removal_paths": {
+      "04_glasses": {
+        "axis": [
+          -0.0,
+          -0.997785157856609,
+          0.06651901052377394
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "05_brow_left": {
+        "axis": [
+          -0.0,
+          -0.997785157856609,
+          0.06651901052377394
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "06_brow_right": {
+        "axis": [
+          -0.0,
+          -0.997785157856609,
+          0.06651901052377394
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "07_moustache_left": {
+        "axis": [
+          -0.0,
+          -0.997785157856609,
+          0.06651901052377394
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "08_moustache_right": {
+        "axis": [
+          -0.0,
+          -0.997785157856609,
+          0.06651901052377394
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "03_hair": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "02_face": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      }
+    },
+    "physical_fit_test_performed": false,
+    "assembled_dimensions_mm": [
+      83.66571426391602,
+      72.45930480957031,
+      99.99169921875
+    ],
+    "all_paths_passed": true
+  },
+  "slicing": {
+    "plates": [
+      {
+        "plate": "00",
+        "name": "00_定位榫試配_先印這個.3mf",
+        "seconds": 852,
+        "filament_g": 1.24,
+        "filament_slots": 1,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "false",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 2,
+        "slice_runtime_sec": 0.7
+      },
+      {
+        "plate": "01",
+        "name": "01_粽葉_單色列印.3mf",
+        "seconds": 12123,
+        "filament_g": 57.85,
+        "filament_slots": 1,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 2.6
+      },
+      {
+        "plate": "02",
+        "name": "02_臉與耳朵_單色列印.3mf",
+        "seconds": 6789,
+        "filament_g": 23.87,
+        "filament_slots": 1,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 2.5
+      },
+      {
+        "plate": "03",
+        "name": "03_頭髮與五官_單色列印.3mf",
+        "seconds": 11124,
+        "filament_g": 40.07,
+        "filament_slots": 1,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 9,
+        "slice_runtime_sec": 7.3
+      },
+      {
+        "plate": "04",
+        "name": "04_眼鏡_單色列印.3mf",
+        "seconds": 1525,
+        "filament_g": 2.79,
+        "filament_slots": 1,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 0.6
+      }
+    ],
+    "main_plates_total_seconds": 31561,
+    "main_plates_total_filament_g": 124.58,
+    "fit_test_included_in_total": false,
+    "physical_test_print": false,
+    "print_job_sent": false
+  },
+  "slicer_geometry_roundtrip": [
+    {
+      "plate": "00",
+      "objects": 2,
+      "mesh_roundtrip_error_mm": 8.874580157000682e-06,
+      "all_solids_closed": true,
+      "slicer_mesh_repairs": 0,
+      "all_objects_sliced": true,
+      "prime_tower_present": false
+    },
+    {
+      "plate": "01",
+      "objects": 1,
+      "mesh_roundtrip_error_mm": 1.3962269486666771e-05,
+      "all_solids_closed": true,
+      "slicer_mesh_repairs": 0,
+      "all_objects_sliced": true,
+      "prime_tower_present": false
+    },
+    {
+      "plate": "02",
+      "objects": 1,
+      "mesh_roundtrip_error_mm": 1.6676961501304862e-05,
+      "all_solids_closed": true,
+      "slicer_mesh_repairs": 0,
+      "all_objects_sliced": true,
+      "prime_tower_present": false
+    },
+    {
+      "plate": "03",
+      "objects": 9,
+      "mesh_roundtrip_error_mm": 1.4327876716932742e-05,
+      "all_solids_closed": true,
+      "slicer_mesh_repairs": 0,
+      "all_objects_sliced": true,
+      "prime_tower_present": false
+    },
+    {
+      "plate": "04",
+      "objects": 1,
+      "mesh_roundtrip_error_mm": 1.584751613155317e-05,
+      "all_solids_closed": true,
+      "slicer_mesh_repairs": 0,
+      "all_objects_sliced": true,
+      "prime_tower_present": false
+    }
+  ]
+}

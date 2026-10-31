@@ -1,0 +1,210 @@
+{
+  "title": "可愛陳晉 原色三件組裝版",
+  "physical_pieces": 3,
+  "palette": [
+    "#438D69",
+    "#F5C39E",
+    "#27272B",
+    "#607F92"
+  ],
+  "assembly_geometry": {
+    "overlaps_mm3": {
+      "01_leaves / 02_face": 0.0,
+      "01_leaves / 03_hair": 0.0,
+      "02_face / 03_hair": 0.0
+    },
+    "removal_paths": {
+      "03_hair": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "02_face": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      }
+    },
+    "physical_fit_test_performed": false,
+    "assembled_dimensions_mm": [
+      83.66571426391602,
+      72.45930480957031,
+      99.99169921875
+    ],
+    "all_paths_passed": true
+  },
+  "color_partition": {
+    "parts": {
+      "skin": {
+        "triangles": 68806,
+        "volume_mm3": 44250.65756050395,
+        "closed": true,
+        "material_volume_components": 1
+      },
+      "glasses": {
+        "triangles": 22328,
+        "volume_mm3": 1184.655636933504,
+        "closed": true,
+        "material_volume_components": 1
+      },
+      "details": {
+        "triangles": 10664,
+        "volume_mm3": 193.0837645559042,
+        "closed": true,
+        "material_volume_components": 10
+      }
+    },
+    "overlaps_mm3": {
+      "skin / glasses": 3.0139387873070486e-08,
+      "skin / details": 2.480765232867986e-14,
+      "glasses / details": 0.0
+    },
+    "face_missing_mm3": 8.147275514488898e-05,
+    "face_extra_mm3": 1.702783792342938e-06,
+    "face_union_components": 1,
+    "physical_pieces": 3,
+    "source": "Original multicolor projected cutters applied to the three-piece face."
+  },
+  "slicing": {
+    "plates": [
+      {
+        "plate": "01",
+        "name": "01_粽子身體_綠色.3mf",
+        "seconds": 12122,
+        "filament_g": 57.82,
+        "filament_slots": 1,
+        "toolchange_blocks": 0,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 3.0
+      },
+      {
+        "plate": "02",
+        "name": "02_臉_原色三色合印.3mf",
+        "seconds": 25430,
+        "filament_g": 116.6,
+        "filament_slots": 3,
+        "toolchange_blocks": 133,
+        "mid_print_material_changes": 133,
+        "prime_tower": true,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 3.3
+      },
+      {
+        "plate": "03",
+        "name": "03_頭髮_黑色.3mf",
+        "seconds": 10710,
+        "filament_g": 38.91,
+        "filament_slots": 1,
+        "toolchange_blocks": 0,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 6.8
+      }
+    ],
+    "main_plates_total_seconds": 48262,
+    "main_plates_total_filament_g": 213.32999999999998,
+    "fit_test_included_in_total": false,
+    "physical_test_print": false,
+    "print_job_sent": false
+  },
+  "slicer_validation": [
+    {
+      "plate": "01",
+      "physical_objects": 1,
+      "material_volumes": 1,
+      "material_assignments": [
+        {
+          "label": "粽子身體",
+          "slot": 1,
+          "color": "#438D69"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.3962269486666771e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": false
+    },
+    {
+      "plate": "02",
+      "physical_objects": 1,
+      "material_volumes": 3,
+      "material_assignments": [
+        {
+          "label": "臉與耳朵",
+          "slot": 1,
+          "color": "#F5C39E"
+        },
+        {
+          "label": "眉毛與小鬍子",
+          "slot": 2,
+          "color": "#27272B"
+        },
+        {
+          "label": "眼鏡含鏡片",
+          "slot": 3,
+          "color": "#607F92"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.6752679323464426e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": true
+    },
+    {
+      "plate": "03",
+      "physical_objects": 1,
+      "material_volumes": 1,
+      "material_assignments": [
+        {
+          "label": "頭髮",
+          "slot": 1,
+          "color": "#27272B"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.4014198778970353e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": false
+    }
+  ]
+}

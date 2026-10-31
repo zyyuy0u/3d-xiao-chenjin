@@ -1,0 +1,145 @@
+{
+  "title": "可愛陳晉 100 mm 三件組裝版",
+  "finished_parts": 3,
+  "print_plates": 3,
+  "face_details_integrated": [
+    "ears",
+    "glasses",
+    "eyebrows",
+    "eight moustache dots"
+  ],
+  "assembly_geometry": {
+    "overlaps_mm3": {
+      "01_leaves / 02_face": 0.0,
+      "01_leaves / 03_hair": 0.0,
+      "02_face / 03_hair": 0.0
+    },
+    "removal_paths": {
+      "03_hair": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "02_face": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      }
+    },
+    "physical_fit_test_performed": false,
+    "assembled_dimensions_mm": [
+      83.66571426391602,
+      72.45930480957031,
+      99.99169921875
+    ],
+    "all_paths_passed": true
+  },
+  "slicing": {
+    "plates": [
+      {
+        "plate": "01",
+        "name": "01_粽子身體_單色列印.3mf",
+        "seconds": 12114,
+        "filament_g": 57.82,
+        "filament_slots": 1,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 3.3
+      },
+      {
+        "plate": "02",
+        "name": "02_臉含眼鏡五官_單色列印.3mf",
+        "seconds": 6851,
+        "filament_g": 24.0,
+        "filament_slots": 1,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 2.6
+      },
+      {
+        "plate": "03",
+        "name": "03_頭髮_單色列印.3mf",
+        "seconds": 10692,
+        "filament_g": 38.82,
+        "filament_slots": 1,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 6.9
+      }
+    ],
+    "main_plates_total_seconds": 29657,
+    "main_plates_total_filament_g": 120.64,
+    "fit_test_included_in_total": false,
+    "physical_test_print": false,
+    "print_job_sent": false
+  },
+  "slicer_geometry_roundtrip": [
+    {
+      "plate": "01",
+      "objects": 1,
+      "mesh_roundtrip_error_mm": 1.3962269486666771e-05,
+      "all_solids_closed": true,
+      "slicer_mesh_repairs": 0,
+      "all_objects_sliced": true,
+      "prime_tower_present": false
+    },
+    {
+      "plate": "02",
+      "objects": 1,
+      "mesh_roundtrip_error_mm": 1.6685727757037454e-05,
+      "all_solids_closed": true,
+      "slicer_mesh_repairs": 0,
+      "all_objects_sliced": true,
+      "prime_tower_present": false
+    },
+    {
+      "plate": "03",
+      "objects": 1,
+      "mesh_roundtrip_error_mm": 1.4014198778970353e-05,
+      "all_solids_closed": true,
+      "slicer_mesh_repairs": 0,
+      "all_objects_sliced": true,
+      "prime_tower_present": false
+    }
+  ]
+}
