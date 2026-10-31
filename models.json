@@ -47,18 +47,18 @@
     },
     {
       "file": "幽靈_01_幽靈身體_白色.3mf",
-      "bytes": 1504225,
-      "sha256": "bc1d6b9d5d44ce39cecd65c36a3c93a4579513cfd8173525e7f25354ec2df8fe"
+      "bytes": 1537512,
+      "sha256": "f6e53a418e7508b86a78b0d64b93409f554536e63e257273ac9447e5be585ea1"
     },
     {
       "file": "幽靈_02_臉_原色三色合印.3mf",
       "bytes": 1500801,
-      "sha256": "4cdaed3f3fcf8304160dea762015c3a5e3fb950fa7e9eae492819a06c2b3556e"
+      "sha256": "11136f2dbdfb37f602216cbf9d2d681c21dc20b1f6828e33779740f82e13353a"
     },
     {
       "file": "幽靈_03_頭髮_黑色.3mf",
       "bytes": 1363186,
-      "sha256": "c13a06f90beef5d490b359461f14618f861823b0e507279fcb1a7346152957ef"
+      "sha256": "a7ee95e5e1d0024acdb5eff1fab0a5aa6cc39a030649e8e8685c11035c2048d2"
     }
   ]
 }

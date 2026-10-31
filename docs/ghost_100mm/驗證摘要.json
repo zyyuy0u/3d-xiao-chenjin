@@ -1,9 +1,9 @@
 {
-  "title": "幽靈小陳晉・精修版",
+  "title": "幽靈小陳晉・飄逸版",
   "physical_pieces": 3,
   "design": {
     "units": "millimeter",
-    "theme": "Refined draped ghost costume",
+    "theme": "Wind-swept ghost costume with deep traveling fabric ripples",
     "physical_parts": 3,
     "nominal_height_mm": 100,
     "head_unchanged": true,
@@ -54,23 +54,23 @@
         "pin_height_mm": 4.2
       }
     ],
-    "carving_removed_mm3": 357.31032719500945,
+    "carving_removed_mm3": 519.8721227502392,
     "undercut_relief": [],
     "ghost": {
       "watertight": true,
       "connected_components": 1,
-      "volume_mm3": 139015.6791268404,
-      "triangles": 96900,
+      "volume_mm3": 127894.58669131894,
+      "triangles": 98772,
       "bounds_mm": [
         [
-          -47.97512435913086,
-          -33.47052001953125,
+          -48.027530670166016,
+          -39.19285202026367,
           0.0
         ],
         [
-          47.975101470947266,
-          35.11511993408203,
-          47.59014129638672
+          49.738914489746094,
+          40.326114654541016,
+          47.59033966064453
         ]
       ]
     },
@@ -107,8 +107,8 @@
     },
     "physical_fit_test_performed": false,
     "assembled_dimensions_mm": [
-      95.95022583007812,
-      70.27066421508789,
+      97.76644515991211,
+      79.51896667480469,
       99.99169921875
     ],
     "all_paths_passed": true
@@ -118,8 +118,8 @@
       {
         "plate": "01",
         "name": "01_幽靈身體_白色.3mf",
-        "seconds": 11882,
-        "filament_g": 48.88,
+        "seconds": 15479,
+        "filament_g": 54.59,
         "filament_slots": 1,
         "toolchange_blocks": 0,
         "mid_print_material_changes": 0,
@@ -134,13 +134,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 5.7
+        "slice_runtime_sec": 9.0
       },
       {
         "plate": "02",
         "name": "02_臉_原色三色合印.3mf",
-        "seconds": 25421,
-        "filament_g": 116.59,
+        "seconds": 25431,
+        "filament_g": 116.56,
         "filament_slots": 3,
         "toolchange_blocks": 133,
         "mid_print_material_changes": 133,
@@ -160,8 +160,8 @@
       {
         "plate": "03",
         "name": "03_頭髮_黑色.3mf",
-        "seconds": 10682,
-        "filament_g": 38.85,
+        "seconds": 10699,
+        "filament_g": 38.88,
         "filament_slots": 1,
         "toolchange_blocks": 0,
         "mid_print_material_changes": 0,
@@ -176,11 +176,11 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 6.9
+        "slice_runtime_sec": 7.4
       }
     ],
-    "main_plates_total_seconds": 47985,
-    "main_plates_total_filament_g": 204.32,
+    "main_plates_total_seconds": 51609,
+    "main_plates_total_filament_g": 210.03,
     "fit_test_included_in_total": false,
     "physical_test_print": false,
     "print_job_sent": false
@@ -197,7 +197,7 @@
           "color": "#F3F0E7"
         }
       ],
-      "max_roundtrip_error_mm": 1.3961519709046503e-05,
+      "max_roundtrip_error_mm": 1.4134993910569024e-05,
       "all_volumes_closed": true,
       "mesh_repairs": 0,
       "prime_tower": false
