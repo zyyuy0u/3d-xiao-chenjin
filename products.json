@@ -1,109 +1,203 @@
 [
   {
-    "id": "kitty",
-    "name": "貓耳帽裡的小陳晉",
-    "category": "角色造型",
-    "image": "assets/hello_kitty_100mm/assembled.png",
-    "guide": "HelloKitty_組裝說明.html",
-    "description": "紅蝴蝶結與藍吊帶裝，收藏一點熟悉的可愛。",
-    "type": "三件組裝・附省時檔",
-    "time": "27 小時 15 分",
-    "price": 0,
-    "files": [
-      "HelloKitty_01_吊帶裝與手腳_三色合印.3mf",
-      "HelloKitty_02_臉_原色三色合印.3mf",
-      "HelloKitty_03_貓耳帽與蝴蝶結_兩色合印.3mf",
-      "HelloKitty_04_吊帶裝與手腳_省時單色版.3mf",
-      "HelloKitty_05_貓耳帽_省時單色版.3mf"
-    ],
-    "bundle": "downloads/hello-kitty.zip",
-    "size": 3.6
-  },
-  {
     "id": "ghost",
     "name": "披風裡的小陳晉・飄逸版",
     "category": "節日限定",
     "image": "assets/ghost_100mm/assembled.png",
-    "guide": "幽靈_組裝說明.html",
     "description": "層層波紋隨風流動，裙襬輕輕揚起。",
-    "type": "三件組裝",
-    "time": "14 小時 20 分",
     "price": 0,
-    "files": [
-      "幽靈_01_幽靈身體_白色.3mf",
-      "幽靈_02_臉_原色三色合印.3mf",
-      "幽靈_03_頭髮_黑色.3mf"
-    ],
-    "bundle": "downloads/ghost-flowing.zip",
-    "size": 4.2
+    "variants": [
+      {
+        "id": "assembled-color",
+        "construction": "分件組裝",
+        "label": "原配色・三件組裝",
+        "note": "保留商品示意配色，三件分開列印再以定位榫與少量膠組裝。彩色臉盤需要多色設備。",
+        "price": 0,
+        "files": [
+          "幽靈_01_幽靈身體_白色.3mf",
+          "幽靈_02_臉_原色三色合印.3mf",
+          "幽靈_03_頭髮_黑色.3mf"
+        ],
+        "bundle": "downloads/ghost-flowing.zip",
+        "size": 4.2,
+        "guide": "幽靈_組裝說明.html",
+        "image": "assets/ghost_100mm/assembled.png",
+        "time": "14 小時 20 分"
+      },
+      {
+        "id": "solid-mono",
+        "construction": "一體成型",
+        "label": "單色一體成型",
+        "note": "單一連通實體，整件一次印出，不需組裝。此檔只有一種線材；若要商品示意配色需自行上色。",
+        "price": 0,
+        "files": [
+          "幽靈_一體成型_單色.3mf"
+        ],
+        "bundle": "downloads/ghost-onepiece.zip",
+        "size": 3.3,
+        "guide": "幽靈_一體成型說明.html",
+        "image": "assets/ghost_100mm/solid.png",
+        "time": "9 小時 5 分"
+      }
+    ]
   },
   {
     "id": "pumpkin",
     "name": "南瓜裡的小陳晉",
     "category": "節日限定",
     "image": "assets/halloween_pumpkin_100mm/assembled.png",
-    "guide": "萬聖節_組裝說明.html",
     "description": "把萬聖節的好心情，印成桌上的小風景。",
-    "type": "三件組裝",
-    "time": "13 小時 16 分",
     "price": 0,
-    "files": [
-      "萬聖節_01_南瓜身體_橘色.3mf",
-      "萬聖節_02_臉_原色三色合印.3mf",
-      "萬聖節_03_頭髮_黑色.3mf"
-    ],
-    "bundle": "downloads/pumpkin.zip",
-    "size": 3.5
+    "variants": [
+      {
+        "id": "assembled-color",
+        "construction": "分件組裝",
+        "label": "原配色・三件組裝",
+        "note": "保留商品示意配色，三件分開列印再以定位榫與少量膠組裝。彩色臉盤需要多色設備。",
+        "price": 0,
+        "files": [
+          "萬聖節_01_南瓜身體_橘色.3mf",
+          "萬聖節_02_臉_原色三色合印.3mf",
+          "萬聖節_03_頭髮_黑色.3mf"
+        ],
+        "bundle": "downloads/pumpkin.zip",
+        "size": 3.5,
+        "guide": "萬聖節_組裝說明.html",
+        "image": "assets/halloween_pumpkin_100mm/assembled.png",
+        "time": "13 小時 16 分"
+      },
+      {
+        "id": "solid-mono",
+        "construction": "一體成型",
+        "label": "單色一體成型",
+        "note": "單一連通實體，整件一次印出，不需組裝。此檔只有一種線材；若要商品示意配色需自行上色。",
+        "price": 0,
+        "files": [
+          "萬聖節_一體成型_單色.3mf"
+        ],
+        "bundle": "downloads/pumpkin-onepiece.zip",
+        "size": 2.6,
+        "guide": "萬聖節_一體成型說明.html",
+        "image": "assets/halloween_pumpkin_100mm/solid.png",
+        "time": "7 小時 55 分"
+      }
+    ]
   },
   {
     "id": "zongzi",
-    "name": "粽葉裡的小陳晉",
-    "category": "分件組裝",
+    "name": "粽子小陳晉",
+    "category": "經典粽子",
     "image": "assets/zongzi_assembly_3parts_color_100mm/assembled.png",
-    "guide": "粽子三件原色_組裝說明.html",
-    "description": "熟悉的笑容，包進一顆圓滾滾的粽子。",
-    "type": "三件組裝",
-    "time": "13 小時 24 分",
+    "description": "圓滾滾的粽葉造型，選擇喜歡的製作方式與配色。",
     "price": 0,
-    "files": [
-      "粽子三件原色_01_粽子身體_綠色.3mf",
-      "粽子三件原色_02_臉_原色三色合印.3mf",
-      "粽子三件原色_03_頭髮_黑色.3mf"
-    ],
-    "bundle": "downloads/zongzi.zip",
-    "size": 3.4
+    "variants": [
+      {
+        "id": "assembled-color",
+        "construction": "分件組裝",
+        "label": "原配色・三件組裝",
+        "note": "保留商品示意配色，三件分開列印再以定位榫與少量膠組裝。彩色臉盤需要多色設備。",
+        "price": 0,
+        "files": [
+          "粽子三件原色_01_粽子身體_綠色.3mf",
+          "粽子三件原色_02_臉_原色三色合印.3mf",
+          "粽子三件原色_03_頭髮_黑色.3mf"
+        ],
+        "bundle": "downloads/zongzi.zip",
+        "size": 3.4,
+        "guide": "粽子三件原色_組裝說明.html",
+        "image": "assets/zongzi_assembly_3parts_color_100mm/assembled.png",
+        "time": "13 小時 24 分"
+      },
+      {
+        "id": "solid-color",
+        "construction": "一體成型",
+        "label": "四色一體成型",
+        "note": "整隻一次列印，需四種線材與多色設備，列印途中會換色。",
+        "price": 0,
+        "files": [
+          "粽子單件四色_Q版粽子人物_100mm_四區可選色.3mf"
+        ],
+        "bundle": "downloads/color.zip",
+        "size": 32.0,
+        "guide": "粽子單件四色_選色預覽.html",
+        "image": "assets/zongzi_multicolor_100mm/three_quarter.png",
+        "time": "25 小時 32 分"
+      },
+      {
+        "id": "solid-mono",
+        "construction": "一體成型",
+        "label": "單色一體成型",
+        "note": "整件單色；如要商品配色需自行補色。下載包內含通用與 X1C 專案，擇一列印。",
+        "price": 0,
+        "files": [
+          "粽子單件單色_01_Q版粽子人物_100mm_通用模型.3mf",
+          "粽子單件單色_02_Q版粽子人物_100mm_X1C_PLA_支撐設定.3mf"
+        ],
+        "bundle": "downloads/mono.zip",
+        "size": 71.8,
+        "guide": "粽子單件單色_模型預覽.html",
+        "image": "assets/zongzi_100mm/three_quarter.png",
+        "time": "7 小時 56 分"
+      }
+    ]
   },
   {
-    "id": "color",
-    "name": "經典粽子・四色",
-    "category": "一體成形",
-    "image": "assets/zongzi_multicolor_100mm/three_quarter.png",
-    "guide": "粽子單件四色_選色預覽.html",
-    "description": "一次成形，讓四種色彩一起說故事。",
-    "type": "四色一體",
-    "time": "25 小時 32 分",
+    "id": "kitty",
+    "name": "貓耳帽裡的小陳晉",
+    "category": "角色造型",
+    "image": "assets/hello_kitty_100mm/assembled.png",
+    "description": "身體比例加大，貓耳帽與吊帶裝更有份量。",
     "price": 0,
-    "files": [
-      "粽子單件四色_Q版粽子人物_100mm_四區可選色.3mf"
-    ],
-    "bundle": "downloads/color.zip",
-    "size": 32.0
-  },
-  {
-    "id": "mono",
-    "name": "經典粽子・單色",
-    "category": "一體成形",
-    "image": "assets/zongzi_100mm/three_quarter.png",
-    "guide": "粽子單件單色_模型預覽.html",
-    "description": "留下造型的純粹，選一卷你喜歡的線材。",
-    "type": "單色一體",
-    "time": "7 小時 56 分",
-    "price": 0,
-    "files": [
-      "粽子單件單色_01_Q版粽子人物_100mm_通用模型.3mf",
-      "粽子單件單色_02_Q版粽子人物_100mm_X1C_PLA_支撐設定.3mf"
-    ],
-    "bundle": "downloads/mono.zip",
-    "size": 71.8
+    "variants": [
+      {
+        "id": "assembled-color",
+        "construction": "分件組裝",
+        "label": "原配色・三件組裝",
+        "note": "新版放大身體並調整頭身比例；請列印同版本三件。三盤皆為多色列印。",
+        "price": 0,
+        "files": [
+          "HelloKitty_01_吊帶裝與手腳_三色合印.3mf",
+          "HelloKitty_02_臉_原色三色合印.3mf",
+          "HelloKitty_03_貓耳帽與蝴蝶結_兩色合印.3mf"
+        ],
+        "bundle": "downloads/kitty-assembled-color.zip",
+        "size": 2.6,
+        "guide": "HelloKitty_組裝說明.html",
+        "image": "assets/hello_kitty_100mm/assembled.png",
+        "time": "27 小時 41 分"
+      },
+      {
+        "id": "assembled-fast",
+        "construction": "分件組裝",
+        "label": "省時補色版・三件組裝",
+        "note": "身體與帽子單色印出後自行補色，臉仍保留三色。新版比例需使用同版本的三件零件。",
+        "price": 0,
+        "files": [
+          "HelloKitty_04_吊帶裝與手腳_省時單色版.3mf",
+          "HelloKitty_02_臉_原色三色合印.3mf",
+          "HelloKitty_05_貓耳帽_省時單色版.3mf"
+        ],
+        "bundle": "downloads/kitty-assembled-fast.zip",
+        "size": 2.4,
+        "guide": "HelloKitty_組裝說明.html",
+        "image": "assets/hello_kitty_100mm/assembled.png",
+        "time": "10 小時 49 分"
+      },
+      {
+        "id": "solid-mono",
+        "construction": "一體成型",
+        "label": "單色一體成型",
+        "note": "單一連通實體，整件一次印出，不需組裝。此檔只有一種線材；若要商品示意配色需自行上色。",
+        "price": 0,
+        "files": [
+          "HelloKitty_一體成型_單色.3mf"
+        ],
+        "bundle": "downloads/kitty-onepiece.zip",
+        "size": 1.7,
+        "guide": "HelloKitty_一體成型說明.html",
+        "image": "assets/hello_kitty_100mm/solid.png",
+        "time": "6 小時 46 分"
+      }
+    ]
   }
 ]

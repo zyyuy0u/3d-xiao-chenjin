@@ -28,8 +28,8 @@ for page in ROOT.glob('*.html'):
         assert ROOT in target.parents,(page.name,url)
         total_links+=1
 
-manifest=json.loads((ROOT/'models.json').read_text())['models'];assert len(manifest)==17
-assert len(list(ROOT.glob('*.3mf')))==17
+manifest=json.loads((ROOT/'models.json').read_text())['models'];assert len(manifest)==20
+assert len(list(ROOT.glob('*.3mf')))==20
 for model in manifest:
     p=ROOT/model['file'];data=p.read_bytes()
     assert len(data)==model['bytes'] and hashlib.sha256(data).hexdigest()==model['sha256'],p
@@ -58,4 +58,20 @@ for p in ROOT.rglob('*'):
         text=p.read_text()
         assert not re.search(r'(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,})',text),p
         assert '/Users/' not in text and 'file://' not in text,p
-print(f'Passed: 6 cartoon versions, 17 intact 3MFs, {total_links} relative links, no portrait-photo assets.')
+print(f'Passed: 4 product designs, 20 intact 3MFs, {total_links} relative links, no portrait-photo assets.')
+
+products=json.loads((ROOT/'products.json').read_text())
+assert len(products)==4 and {p['id'] for p in products}=={'ghost','pumpkin','zongzi','kitty'}
+model_files={p['file'] for p in manifest}
+for product in products:
+    assert {v['construction'] for v in product['variants']}=={'一體成型','分件組裝'},product['id']
+    assert len({v['id'] for v in product['variants']})==len(product['variants'])
+    for v in product['variants']:
+        assert (ROOT/v['image']).is_file() and (ROOT/v['guide']).is_file()
+        assert set(v['files'])<=model_files
+        with zipfile.ZipFile(ROOT/v['bundle']) as z:
+            assert z.testzip() is None
+            assert {n for n in z.namelist() if n.endswith('.3mf')}==set(v['files'])
+            for name in v['files']:
+                assert hashlib.sha256(z.read(name)).digest()==hashlib.sha256((ROOT/name).read_bytes()).digest()
+print('Passed: all four products expose both construction modes; every variant ZIP contains its exact selected model files.')

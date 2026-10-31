@@ -62,28 +62,43 @@
     },
     {
       "file": "HelloKitty_01_吊帶裝與手腳_三色合印.3mf",
-      "bytes": 713541,
-      "sha256": "901750efe8d234f46352decee9dd8a61789092816f9c0be83d02d6f386e4e5aa"
+      "bytes": 723588,
+      "sha256": "fb2838284c40c5cd3f0d25a9baa395fc87145bdf4bc0e9ce7c7fca2a5768caa6"
     },
     {
       "file": "HelloKitty_02_臉_原色三色合印.3mf",
-      "bytes": 1500802,
-      "sha256": "b7179dc844ecd1ec5e1f70cef75635896fbb2b013bbc4d06d7282a875c739451"
+      "bytes": 1477633,
+      "sha256": "a72c1f5d95ee9cef469f4d582270216413c9bc8dd26dc3b090b2903cfbb2ac95"
     },
     {
       "file": "HelloKitty_03_貓耳帽與蝴蝶結_兩色合印.3mf",
-      "bytes": 555093,
-      "sha256": "d733d01fcbbbcea259a694da1158f9ee5d2c1717a822c38ffd3f072ce3669bd8"
+      "bytes": 546195,
+      "sha256": "591159a055ee274b1d07b4ae3b102a2b35cf5878e824d72abea9f9dda014cfcc"
     },
     {
       "file": "HelloKitty_04_吊帶裝與手腳_省時單色版.3mf",
-      "bytes": 492240,
-      "sha256": "87f57d6b469e539022d6bf801ca7b439d865c830afda3426d2886172ba9e9a39"
+      "bytes": 540918,
+      "sha256": "b29672449960ff2f9816fdcd8941633f160924762102cf6a74f910af9cea6783"
     },
     {
       "file": "HelloKitty_05_貓耳帽_省時單色版.3mf",
-      "bytes": 482677,
-      "sha256": "a4014fe5a132a1f2da105010139e1d6d1b82ca8a89113e15e2c5f654e6edf9cb"
+      "bytes": 476075,
+      "sha256": "ed97c06ec3ad6a2d2e197d54eb2608a00b86af47b8ba4bd70fef1296204ae46e"
+    },
+    {
+      "file": "幽靈_一體成型_單色.3mf",
+      "bytes": 3425774,
+      "sha256": "04c59d8c3a41cbfa8f8c2e2c731cd8a9e840acdbc5bc9df98176ec9a34acd0f3"
+    },
+    {
+      "file": "萬聖節_一體成型_單色.3mf",
+      "bytes": 2714693,
+      "sha256": "f4096249ef32e9d65e665cccde8e92b9c42bb881214364cde818cfcd0c91f5a5"
+    },
+    {
+      "file": "HelloKitty_一體成型_單色.3mf",
+      "bytes": 1752155,
+      "sha256": "b2e14e0a18bbd5c82877682fc76387e1ddb8dbf679aa76727e27df5b663e78ab"
     }
   ]
 }

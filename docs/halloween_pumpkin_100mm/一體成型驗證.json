@@ -1,0 +1,11 @@
+{
+  "id": "pumpkin",
+  "label": "萬聖節",
+  "file": "萬聖節_一體成型_單色.3mf",
+  "seconds": 28509,
+  "filament_g": 115.26,
+  "components": 1,
+  "closed": true,
+  "body_height_mm": 99.99169921875,
+  "physical_test_print": false
+}

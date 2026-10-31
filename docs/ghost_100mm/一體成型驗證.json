@@ -1,0 +1,11 @@
+{
+  "id": "ghost",
+  "label": "幽靈",
+  "file": "幽靈_一體成型_單色.3mf",
+  "seconds": 32676,
+  "filament_g": 121.12,
+  "components": 1,
+  "closed": true,
+  "body_height_mm": 99.99169921875,
+  "physical_test_print": false
+}

@@ -2,58 +2,202 @@
   "title": "Hello Kitty 造型小陳晉",
   "physical_parts": 3,
   "projects": 5,
-  "full_color_seconds": 98078,
-  "optional_single_color_seconds": 42018,
+  "full_color_seconds": 99687,
+  "optional_single_color_seconds": 38942,
   "design": {
-    "units": "millimeter",
-    "physical_pieces": 3,
-    "face_preserved": true,
-    "physical_test_print": false,
+    "height_mm": 100,
+    "body_widening_before_normalization": 1.25,
+    "global_scale": 0.9090909090909091,
     "parts": {
-      "assembled_01_costume": {
-        "volume_mm3": 57637.80322551456,
-        "triangles": 24292,
-        "closed": true,
-        "components": 1
-      },
-      "assembled_03_hair": {
-        "volume_mm3": 96984.89882646197,
-        "triangles": 21568,
-        "closed": true,
-        "components": 1
-      },
       "body_white": {
-        "volume_mm3": 21407.489607003892,
+        "volume_mm3": 30914.7629872479,
         "triangles": 16976,
-        "closed": true,
-        "components": 5
+        "bounds_mm": [
+          [
+            -38.068180084228516,
+            -23.254196166992188,
+            0.0
+          ],
+          [
+            38.068180084228516,
+            15.909090995788574,
+            41.31460189819336
+          ]
+        ],
+        "closed": true
       },
       "body_blue": {
-        "volume_mm3": 26781.541956546323,
-        "triangles": 14914,
-        "closed": true,
-        "components": 1
+        "volume_mm3": 40390.14210878877,
+        "triangles": 14886,
+        "bounds_mm": [
+          [
+            -25.25458335876465,
+            -22.727272033691406,
+            0.9243062138557434
+          ],
+          [
+            25.25458335876465,
+            19.31818199157715,
+            48.26185607910156
+          ]
+        ],
+        "closed": true
       },
       "body_yellow": {
-        "volume_mm3": 9448.771659770253,
-        "triangles": 10670,
-        "closed": true,
-        "components": 1
+        "volume_mm3": 9222.082086025275,
+        "triangles": 10592,
+        "bounds_mm": [
+          [
+            -25.809925079345703,
+            -15.166950225830078,
+            31.510496139526367
+          ],
+          [
+            25.995058059692383,
+            19.62547492980957,
+            52.15232849121094
+          ]
+        ],
+        "closed": true
+      },
+      "color_skin": {
+        "volume_mm3": 33246.174482667535,
+        "triangles": 68082,
+        "bounds_mm": [
+          [
+            -32.1458625793457,
+            -31.395463943481445,
+            41.15659713745117
+          ],
+          [
+            32.19199752807617,
+            25.39582061767578,
+            76.50818634033203
+          ]
+        ],
+        "closed": true
+      },
+      "color_details": {
+        "volume_mm3": 145.06669283808998,
+        "triangles": 10268,
+        "bounds_mm": [
+          [
+            -14.696582794189453,
+            -31.476097106933594,
+            51.60083770751953
+          ],
+          [
+            14.625411987304688,
+            -27.35780906677246,
+            69.86786651611328
+          ]
+        ],
+        "closed": true
+      },
+      "color_glasses": {
+        "volume_mm3": 890.0493561461623,
+        "triangles": 21930,
+        "bounds_mm": [
+          [
+            -22.33332061767578,
+            -31.397472381591797,
+            53.248939514160156
+          ],
+          [
+            22.320674896240234,
+            -15.466690063476562,
+            65.06109619140625
+          ]
+        ],
+        "closed": true
       },
       "hood_white": {
-        "volume_mm3": 94064.02762086042,
-        "triangles": 18674,
-        "closed": true,
-        "components": 1
+        "volume_mm3": 70671.69559958484,
+        "triangles": 18528,
+        "bounds_mm": [
+          [
+            -33.6363639831543,
+            -29.08118438720703,
+            53.95866775512695
+          ],
+          [
+            33.6363639831543,
+            29.090909957885742,
+            97.983154296875
+          ]
+        ],
+        "closed": true
       },
       "hood_red": {
-        "volume_mm3": 2920.871204929113,
+        "volume_mm3": 2194.4937227841715,
         "triangles": 8292,
-        "closed": true,
-        "components": 1
+        "bounds_mm": [
+          [
+            9.090909004211426,
+            -23.636363983154297,
+            80.90908813476562
+          ],
+          [
+            34.54545593261719,
+            -9.090909004211426,
+            100.0
+          ]
+        ],
+        "closed": true
+      },
+      "assembled_01_costume": {
+        "volume_mm3": 80526.94635346466,
+        "triangles": 27284,
+        "bounds_mm": [
+          [
+            -38.068180084228516,
+            -23.254196166992188,
+            0.0
+          ],
+          [
+            38.068180084228516,
+            19.62547492980957,
+            52.15232849121094
+          ]
+        ],
+        "closed": true
+      },
+      "assembled_02_face": {
+        "volume_mm3": 34281.290488930324,
+        "triangles": 90494,
+        "bounds_mm": [
+          [
+            -32.1458625793457,
+            -31.476097106933594,
+            41.15659713745117
+          ],
+          [
+            32.19199752807617,
+            25.39582061767578,
+            76.50818634033203
+          ]
+        ],
+        "closed": true
+      },
+      "assembled_03_hair": {
+        "volume_mm3": 72866.1856130656,
+        "triangles": 21476,
+        "bounds_mm": [
+          [
+            -33.6363639831543,
+            -29.08118438720703,
+            53.95866775512695
+          ],
+          [
+            34.54545593261719,
+            29.090909957885742,
+            100.0
+          ]
+        ],
+        "closed": true
       }
     },
-    "assembled_height_mm": 100.0
+    "physical_test_print": false
   },
   "assembly": {
     "overlaps_mm3": {
@@ -85,8 +229,8 @@
     },
     "physical_fit_test_performed": false,
     "assembled_dimensions_mm": [
-      75.0,
-      66.62370681762695,
+      76.13636016845703,
+      60.567007064819336,
       100.0
     ],
     "all_paths_passed": true
@@ -96,11 +240,11 @@
       {
         "plate": "01",
         "name": "01_吊帶裝與手腳_三色合印.3mf",
-        "seconds": 47285,
-        "filament_g": 241.02,
+        "seconds": 54922,
+        "filament_g": 279.51,
         "filament_slots": 3,
-        "toolchange_blocks": 304,
-        "mid_print_material_changes": 304,
+        "toolchange_blocks": 345,
+        "mid_print_material_changes": 345,
         "prime_tower": true,
         "outside_build_area": false,
         "support_used": "true",
@@ -112,16 +256,16 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 3.0
+        "slice_runtime_sec": 3.4
       },
       {
         "plate": "02",
         "name": "02_臉_原色三色合印.3mf",
-        "seconds": 25442,
-        "filament_g": 116.66,
+        "seconds": 22577,
+        "filament_g": 103.16,
         "filament_slots": 3,
-        "toolchange_blocks": 133,
-        "mid_print_material_changes": 133,
+        "toolchange_blocks": 120,
+        "mid_print_material_changes": 120,
         "prime_tower": true,
         "outside_build_area": false,
         "support_used": "true",
@@ -133,16 +277,16 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 4.5
+        "slice_runtime_sec": 2.7
       },
       {
         "plate": "03",
         "name": "03_貓耳帽與蝴蝶結_兩色合印.3mf",
-        "seconds": 25351,
-        "filament_g": 122.62,
+        "seconds": 22188,
+        "filament_g": 107.45,
         "filament_slots": 2,
-        "toolchange_blocks": 100,
-        "mid_print_material_changes": 100,
+        "toolchange_blocks": 92,
+        "mid_print_material_changes": 92,
         "prime_tower": true,
         "outside_build_area": false,
         "support_used": "true",
@@ -154,13 +298,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 5.0
+        "slice_runtime_sec": 3.1
       },
       {
         "plate": "04",
         "name": "04_吊帶裝與手腳_省時單色版.3mf",
-        "seconds": 5962,
-        "filament_g": 23.77,
+        "seconds": 7720,
+        "filament_g": 31.61,
         "filament_slots": 1,
         "toolchange_blocks": 0,
         "mid_print_material_changes": 0,
@@ -175,13 +319,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 2.5
+        "slice_runtime_sec": 2.2
       },
       {
         "plate": "05",
         "name": "05_貓耳帽_省時單色版.3mf",
-        "seconds": 10614,
-        "filament_g": 41.88,
+        "seconds": 8645,
+        "filament_g": 33.23,
         "filament_slots": 1,
         "toolchange_blocks": 0,
         "mid_print_material_changes": 0,
@@ -196,12 +340,12 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 3.6
+        "slice_runtime_sec": 2.7
       }
     ],
-    "main_plates_total_seconds": 98078,
-    "main_plates_total_filament_g": 480.3,
-    "optional_single_color_total_seconds": 42018,
+    "main_plates_total_seconds": 99687,
+    "main_plates_total_filament_g": 490.12,
+    "optional_single_color_total_seconds": 38942,
     "fit_test_included_in_total": false,
     "physical_test_print": false,
     "print_job_sent": false
@@ -228,7 +372,7 @@
           "color": "#F3CD29"
         }
       ],
-      "max_roundtrip_error_mm": 1.3966478752966773e-05,
+      "max_roundtrip_error_mm": 1.863536665957175e-05,
       "all_volumes_closed": true,
       "mesh_repairs": 0,
       "prime_tower": true
@@ -254,7 +398,7 @@
           "color": "#607F92"
         }
       ],
-      "max_roundtrip_error_mm": 1.6752679323464426e-05,
+      "max_roundtrip_error_mm": 1.7356723307740174e-05,
       "all_volumes_closed": true,
       "mesh_repairs": 0,
       "prime_tower": true
@@ -275,7 +419,7 @@
           "color": "#F51145"
         }
       ],
-      "max_roundtrip_error_mm": 1.3984455793788778e-05,
+      "max_roundtrip_error_mm": 2.1804207725627833e-05,
       "all_volumes_closed": true,
       "mesh_repairs": 0,
       "prime_tower": true
@@ -291,7 +435,7 @@
           "color": "#145CAE"
         }
       ],
-      "max_roundtrip_error_mm": 1.3920222903192175e-05,
+      "max_roundtrip_error_mm": 1.390940309236568e-05,
       "all_volumes_closed": true,
       "mesh_repairs": 0,
       "prime_tower": false
@@ -307,7 +451,7 @@
           "color": "#F3F0E7"
         }
       ],
-      "max_roundtrip_error_mm": 1.420987625727364e-05,
+      "max_roundtrip_error_mm": 1.1041154687914978e-05,
       "all_volumes_closed": true,
       "mesh_repairs": 0,
       "prime_tower": false
