@@ -1,0 +1,40 @@
+{
+  "id": "kitty",
+  "file": "HelloKitty_一體成型_原配色.3mf",
+  "colors": 6,
+  "material_colors": [
+    {
+      "name": "藍色吊帶裝",
+      "hex": "#145CAE"
+    },
+    {
+      "name": "膚色臉",
+      "hex": "#F5C39E"
+    },
+    {
+      "name": "黑髮眉毛與鬍子",
+      "hex": "#27272B"
+    },
+    {
+      "name": "藍灰眼鏡",
+      "hex": "#607F92"
+    },
+    {
+      "name": "白色貓耳手腳鈕扣",
+      "hex": "#F3F0E7"
+    },
+    {
+      "name": "黃色上衣",
+      "hex": "#F3CD29"
+    }
+  ],
+  "seconds": 130285,
+  "filament_g": 638.06,
+  "components": 1,
+  "material_regions_closed": true,
+  "max_boolean_overlap_mm3": 0.03365663014146617,
+  "union_difference_mm3": 0.21494088746840134,
+  "native_roundtrip_error_mm": 1.6318498522181735e-05,
+  "mesh_repairs": 0,
+  "physical_test_print": false
+}

@@ -25,6 +25,21 @@
         "time": "14 小時 20 分"
       },
       {
+        "id": "solid-color",
+        "construction": "一體成型",
+        "label": "原配色一體成型",
+        "note": "整隻一次印出，不需組裝；保留 4 色，會換線並產生擦料。完整原配色共四色，可使用 X1 Carbon 搭配一台四槽 AMS。",
+        "price": 0,
+        "files": [
+          "幽靈_一體成型_原配色.3mf"
+        ],
+        "bundle": "downloads/ghost-onepiece-color.zip",
+        "size": 3.8,
+        "guide": "幽靈_一體成型_原配色說明.html",
+        "image": "assets/ghost_100mm/solid-color.png",
+        "time": "23 小時 16 分"
+      },
+      {
         "id": "solid-mono",
         "construction": "一體成型",
         "label": "單色一體成型",
@@ -65,6 +80,21 @@
         "guide": "萬聖節_組裝說明.html",
         "image": "assets/halloween_pumpkin_100mm/assembled.png",
         "time": "13 小時 16 分"
+      },
+      {
+        "id": "solid-color",
+        "construction": "一體成型",
+        "label": "原配色一體成型",
+        "note": "整隻一次印出，不需組裝；保留 4 色，會換線並產生擦料。完整原配色共四色，可使用 X1 Carbon 搭配一台四槽 AMS。",
+        "price": 0,
+        "files": [
+          "萬聖節_一體成型_原配色.3mf"
+        ],
+        "bundle": "downloads/pumpkin-onepiece-color.zip",
+        "size": 3.2,
+        "guide": "萬聖節_一體成型_原配色說明.html",
+        "image": "assets/halloween_pumpkin_100mm/solid-color.png",
+        "time": "22 小時 6 分"
       },
       {
         "id": "solid-mono",
@@ -111,7 +141,7 @@
       {
         "id": "solid-color",
         "construction": "一體成型",
-        "label": "四色一體成型",
+        "label": "原配色・四色一體成型",
         "note": "整隻一次列印，需四種線材與多色設備，列印途中會換色。",
         "price": 0,
         "files": [
@@ -145,7 +175,7 @@
     "id": "kitty",
     "name": "貓耳小陳晉",
     "category": "角色造型",
-    "image": "assets/hello_kitty_100mm/assembled.png",
+    "image": "assets/hello_kitty_100mm/ears-assembled.png",
     "description": "延續原系列的頭身比例，熟悉的黑髮加上白色貓耳。",
     "price": 0,
     "variants": [
@@ -163,7 +193,7 @@
         "bundle": "downloads/kitty-assembled-color.zip",
         "size": 3.4,
         "guide": "HelloKitty_組裝說明.html",
-        "image": "assets/hello_kitty_100mm/assembled.png",
+        "image": "assets/hello_kitty_100mm/ears-assembled.png",
         "time": "26 小時 49 分"
       },
       {
@@ -180,8 +210,23 @@
         "bundle": "downloads/kitty-assembled-fast.zip",
         "size": 3.2,
         "guide": "HelloKitty_組裝說明.html",
-        "image": "assets/hello_kitty_100mm/assembled.png",
+        "image": "assets/hello_kitty_100mm/ears-assembled.png",
         "time": "12 小時 9 分"
+      },
+      {
+        "id": "solid-color",
+        "construction": "一體成型",
+        "label": "原配色一體成型",
+        "note": "整隻一次印出，不需組裝；保留 6 色，會換線並產生擦料。完整原配色共六色，需要六個可用供料槽位；單台四槽 AMS 無法一次提供六色。若只有四槽，請選分件組裝原配色版。",
+        "price": 0,
+        "files": [
+          "HelloKitty_一體成型_原配色.3mf"
+        ],
+        "bundle": "downloads/kitty-onepiece-color.zip",
+        "size": 3.0,
+        "guide": "HelloKitty_一體成型_原配色說明.html",
+        "image": "assets/hello_kitty_100mm/solid-color.png",
+        "time": "36 小時 11 分"
       },
       {
         "id": "solid-mono",
@@ -195,7 +240,7 @@
         "bundle": "downloads/kitty-onepiece.zip",
         "size": 2.3,
         "guide": "HelloKitty_一體成型說明.html",
-        "image": "assets/hello_kitty_100mm/solid.png",
+        "image": "assets/hello_kitty_100mm/ears-solid.png",
         "time": "6 小時 59 分"
       }
     ]

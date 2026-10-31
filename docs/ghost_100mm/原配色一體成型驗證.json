@@ -1,0 +1,32 @@
+{
+  "id": "ghost",
+  "file": "幽靈_一體成型_原配色.3mf",
+  "colors": 4,
+  "material_colors": [
+    {
+      "name": "白色披風",
+      "hex": "#F3F0E7"
+    },
+    {
+      "name": "膚色臉",
+      "hex": "#F5C39E"
+    },
+    {
+      "name": "黑髮眉毛與鬍子",
+      "hex": "#27272B"
+    },
+    {
+      "name": "藍灰眼鏡",
+      "hex": "#607F92"
+    }
+  ],
+  "seconds": 83765,
+  "filament_g": 388.01,
+  "components": 1,
+  "material_regions_closed": true,
+  "max_boolean_overlap_mm3": 3.1641936402194375e-05,
+  "union_difference_mm3": 0.00014573743101209402,
+  "native_roundtrip_error_mm": 1.6700185820388332e-05,
+  "mesh_repairs": 0,
+  "physical_test_print": false
+}

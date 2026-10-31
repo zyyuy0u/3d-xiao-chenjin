@@ -1,0 +1,32 @@
+{
+  "id": "pumpkin",
+  "file": "萬聖節_一體成型_原配色.3mf",
+  "colors": 4,
+  "material_colors": [
+    {
+      "name": "橘色南瓜",
+      "hex": "#F28A24"
+    },
+    {
+      "name": "膚色臉",
+      "hex": "#F5C39E"
+    },
+    {
+      "name": "黑髮眉毛與鬍子",
+      "hex": "#27272B"
+    },
+    {
+      "name": "藍灰眼鏡",
+      "hex": "#607F92"
+    }
+  ],
+  "seconds": 79603,
+  "filament_g": 381.58,
+  "components": 1,
+  "material_regions_closed": true,
+  "max_boolean_overlap_mm3": 3.1641936402194375e-05,
+  "union_difference_mm3": 0.000145812111441046,
+  "native_roundtrip_error_mm": 1.9572689240143127e-05,
+  "mesh_repairs": 0,
+  "physical_test_print": false
+}

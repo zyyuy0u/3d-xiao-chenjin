@@ -99,6 +99,21 @@
       "file": "HelloKitty_一體成型_單色.3mf",
       "bytes": 2362226,
       "sha256": "a6ba42597aaa94ca60235421c73e6e14c7e8b2f2e5bbc1a72ec67eee5adfa0fa"
+    },
+    {
+      "file": "幽靈_一體成型_原配色.3mf",
+      "bytes": 4019943,
+      "sha256": "fb41947ec6a5f46a638926da9a2daac0f589f091439b99c40a3b99e7928c947d"
+    },
+    {
+      "file": "萬聖節_一體成型_原配色.3mf",
+      "bytes": 3315580,
+      "sha256": "9b72e9c755350be45553e00a0a021ee1ed165cc6240cccaf56519ac6f60b5979"
+    },
+    {
+      "file": "HelloKitty_一體成型_原配色.3mf",
+      "bytes": 3180584,
+      "sha256": "92ccd81bdc1e119ea531982bfe194b82732b1e4b68c74ffed5e1772d8b1a3227"
     }
   ]
 }
