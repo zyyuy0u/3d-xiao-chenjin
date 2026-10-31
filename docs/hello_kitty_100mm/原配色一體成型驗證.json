@@ -28,13 +28,13 @@
       "hex": "#F3CD29"
     }
   ],
-  "seconds": 130285,
-  "filament_g": 638.06,
+  "seconds": 136686,
+  "filament_g": 668.87,
   "components": 1,
   "material_regions_closed": true,
-  "max_boolean_overlap_mm3": 0.03365663014146617,
-  "union_difference_mm3": 0.21494088746840134,
-  "native_roundtrip_error_mm": 1.6318498522181735e-05,
+  "max_boolean_overlap_mm3": 0.10212479807149788,
+  "union_difference_mm3": 0.00020015379413962364,
+  "native_roundtrip_error_mm": 1.7897381475323428e-05,
   "mesh_repairs": 0,
   "physical_test_print": false
 }

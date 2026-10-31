@@ -1,0 +1,10 @@
+{
+  "body_width_mm": 103.53548431396484,
+  "head_width_mm": 71.83136367797852,
+  "body_to_head_width_ratio": 1.1820194739705094,
+  "ear_root_transition": "continuous voxel union, 0.32 mm resolution, rounded smoothing",
+  "hat": false,
+  "bow": false,
+  "physical_test_print": false,
+  "torso_width_mm": 84.90607070922852
+}

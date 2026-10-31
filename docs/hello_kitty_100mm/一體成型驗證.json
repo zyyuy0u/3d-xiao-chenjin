@@ -2,10 +2,10 @@
   "id": "kitty",
   "label": "HelloKitty",
   "file": "HelloKitty_一體成型_單色.3mf",
-  "seconds": 25129,
-  "filament_g": 96.17,
+  "seconds": 27900,
+  "filament_g": 110.97,
   "components": 1,
   "closed": true,
-  "body_height_mm": 99.99169921875,
+  "body_height_mm": 99.95153045654297,
   "physical_test_print": false
 }

@@ -175,26 +175,26 @@
     "id": "kitty",
     "name": "貓耳小陳晉",
     "category": "角色造型",
-    "image": "assets/hello_kitty_100mm/ears-assembled.png",
-    "description": "延續原系列的頭身比例，熟悉的黑髮加上白色貓耳。",
+    "image": "assets/hello_kitty_100mm/wide-ears-assembled.png",
+    "description": "身體比頭更寬，圓順貓耳從黑髮中自然長出。",
     "price": 0,
     "variants": [
       {
         "id": "assembled-color",
         "construction": "分件組裝",
         "label": "原配色・三件組裝",
-        "note": "維持原系列頭身比例；保留黑髮、加上白色貓耳。三件分開列印，多色盤需要換色。",
+        "note": "寬身新版，白色貓耳根部已修圓融合黑髮；三件分開列印，請使用同一版本三件。",
         "price": 0,
         "files": [
           "HelloKitty_01_吊帶裝與手腳_三色合印.3mf",
           "HelloKitty_02_臉_原色三色合印.3mf",
           "HelloKitty_03_黑髮與貓耳_兩色合印.3mf"
         ],
-        "bundle": "downloads/kitty-assembled-color.zip",
-        "size": 3.4,
+        "bundle": "downloads/wide-kitty-assembled-color.zip",
+        "size": 16.1,
         "guide": "HelloKitty_組裝說明.html",
-        "image": "assets/hello_kitty_100mm/ears-assembled.png",
-        "time": "26 小時 49 分"
+        "image": "assets/hello_kitty_100mm/wide-ears-assembled.png",
+        "time": "28 小時 47 分"
       },
       {
         "id": "assembled-fast",
@@ -207,11 +207,11 @@
           "HelloKitty_02_臉_原色三色合印.3mf",
           "HelloKitty_05_黑髮與貓耳_省時單色版.3mf"
         ],
-        "bundle": "downloads/kitty-assembled-fast.zip",
-        "size": 3.2,
+        "bundle": "downloads/wide-kitty-assembled-fast.zip",
+        "size": 14.9,
         "guide": "HelloKitty_組裝說明.html",
-        "image": "assets/hello_kitty_100mm/ears-assembled.png",
-        "time": "12 小時 9 分"
+        "image": "assets/hello_kitty_100mm/wide-ears-assembled.png",
+        "time": "13 小時 4 分"
       },
       {
         "id": "solid-color",
@@ -222,11 +222,11 @@
         "files": [
           "HelloKitty_一體成型_原配色.3mf"
         ],
-        "bundle": "downloads/kitty-onepiece-color.zip",
-        "size": 3.0,
+        "bundle": "downloads/wide-kitty-onepiece-color.zip",
+        "size": 15.6,
         "guide": "HelloKitty_一體成型_原配色說明.html",
-        "image": "assets/hello_kitty_100mm/solid-color.png",
-        "time": "36 小時 11 分"
+        "image": "assets/hello_kitty_100mm/wide-solid-color.png",
+        "time": "37 小時 58 分"
       },
       {
         "id": "solid-mono",
@@ -237,11 +237,11 @@
         "files": [
           "HelloKitty_一體成型_單色.3mf"
         ],
-        "bundle": "downloads/kitty-onepiece.zip",
-        "size": 2.3,
+        "bundle": "downloads/wide-kitty-onepiece.zip",
+        "size": 13.8,
         "guide": "HelloKitty_一體成型說明.html",
-        "image": "assets/hello_kitty_100mm/ears-solid.png",
-        "time": "6 小時 59 分"
+        "image": "assets/hello_kitty_100mm/wide-ears-solid.png",
+        "time": "7 小時 45 分"
       }
     ]
   }
