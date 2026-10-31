@@ -1,0 +1,248 @@
+{
+  "title": "萬聖節幽靈小陳晉",
+  "physical_pieces": 3,
+  "design": {
+    "units": "millimeter",
+    "theme": "Friendly ghost sheet costume",
+    "physical_parts": 3,
+    "nominal_height_mm": 100,
+    "head_unchanged": true,
+    "socket_radial_clearance_mm": 0.25,
+    "connections": [
+      {
+        "joint": "ghost / face",
+        "anchor": [
+          -12.0,
+          0.0,
+          43.26756
+        ],
+        "pin_diameter_mm": 4.4,
+        "socket_diameter_mm": 4.9,
+        "pin_height_mm": 4.1
+      },
+      {
+        "joint": "ghost / face",
+        "anchor": [
+          12.0,
+          0.0,
+          43.25072
+        ],
+        "pin_diameter_mm": 5.2,
+        "socket_diameter_mm": 5.7,
+        "pin_height_mm": 4.1
+      },
+      {
+        "joint": "face / hair",
+        "anchor": [
+          -10.0,
+          -5.0,
+          58.914770000000004
+        ],
+        "pin_diameter_mm": 4.0,
+        "socket_diameter_mm": 4.5,
+        "pin_height_mm": 4.2
+      },
+      {
+        "joint": "face / hair",
+        "anchor": [
+          10.0,
+          -5.0,
+          59.334340000000005
+        ],
+        "pin_diameter_mm": 4.8,
+        "socket_diameter_mm": 5.3,
+        "pin_height_mm": 4.2
+      }
+    ],
+    "carving_removed_mm3": 770.6782930666232,
+    "undercut_relief": [],
+    "ghost": {
+      "watertight": true,
+      "connected_components": 1,
+      "volume_mm3": 139708.67729079232,
+      "triangles": 59890,
+      "bounds_mm": [
+        [
+          -47.40644454956055,
+          -32.79999923706055,
+          0.0
+        ],
+        [
+          47.40644454956055,
+          32.79999923706055,
+          47.589962005615234
+        ]
+      ]
+    },
+    "carving": "Recessed oval eyes and mouth; single white filament.",
+    "physical_test_print": false
+  },
+  "assembly_geometry": {
+    "overlaps_mm3": {
+      "01_ghost / 02_face": 0.0,
+      "01_ghost / 03_hair": 0.0,
+      "02_face / 03_hair": 0.0
+    },
+    "removal_paths": {
+      "03_hair": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "02_face": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      }
+    },
+    "physical_fit_test_performed": false,
+    "assembled_dimensions_mm": [
+      94.8128890991211,
+      67.9555435180664,
+      99.99169921875
+    ],
+    "all_paths_passed": true
+  },
+  "slicing": {
+    "plates": [
+      {
+        "plate": "01",
+        "name": "01_幽靈身體_白色.3mf",
+        "seconds": 12807,
+        "filament_g": 50.98,
+        "filament_slots": 1,
+        "toolchange_blocks": 0,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 6.1
+      },
+      {
+        "plate": "02",
+        "name": "02_臉_原色三色合印.3mf",
+        "seconds": 25464,
+        "filament_g": 116.71,
+        "filament_slots": 3,
+        "toolchange_blocks": 133,
+        "mid_print_material_changes": 133,
+        "prime_tower": true,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 3.2
+      },
+      {
+        "plate": "03",
+        "name": "03_頭髮_黑色.3mf",
+        "seconds": 10734,
+        "filament_g": 38.93,
+        "filament_slots": 1,
+        "toolchange_blocks": 0,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 6.9
+      }
+    ],
+    "main_plates_total_seconds": 49005,
+    "main_plates_total_filament_g": 206.62,
+    "fit_test_included_in_total": false,
+    "physical_test_print": false,
+    "print_job_sent": false
+  },
+  "slicer_validation": [
+    {
+      "plate": "01",
+      "physical_objects": 1,
+      "material_volumes": 1,
+      "material_assignments": [
+        {
+          "label": "幽靈身體",
+          "slot": 1,
+          "color": "#F3F0E7"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.654695161269745e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": false
+    },
+    {
+      "plate": "02",
+      "physical_objects": 1,
+      "material_volumes": 3,
+      "material_assignments": [
+        {
+          "label": "臉與耳朵",
+          "slot": 1,
+          "color": "#F5C39E"
+        },
+        {
+          "label": "眉毛與小鬍子",
+          "slot": 2,
+          "color": "#27272B"
+        },
+        {
+          "label": "眼鏡含鏡片",
+          "slot": 3,
+          "color": "#607F92"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.6752679323464426e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": true
+    },
+    {
+      "plate": "03",
+      "physical_objects": 1,
+      "material_volumes": 1,
+      "material_assignments": [
+        {
+          "label": "頭髮",
+          "slot": 1,
+          "color": "#27272B"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.4014198778970353e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": false
+    }
+  ]
+}
