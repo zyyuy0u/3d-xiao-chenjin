@@ -1,0 +1,71 @@
+[
+  {
+    "id": "pumpkin",
+    "name": "南瓜裡的小陳晉",
+    "category": "節日限定",
+    "image": "assets/halloween_pumpkin_100mm/assembled.png",
+    "guide": "萬聖節_組裝說明.html",
+    "description": "把萬聖節的好心情，印成桌上的小風景。",
+    "type": "三件組裝",
+    "time": "13 小時 16 分",
+    "price": 0,
+    "files": [
+      "萬聖節_01_南瓜身體_橘色.3mf",
+      "萬聖節_02_臉_原色三色合印.3mf",
+      "萬聖節_03_頭髮_黑色.3mf"
+    ],
+    "bundle": "downloads/pumpkin.zip",
+    "size": 3.5
+  },
+  {
+    "id": "zongzi",
+    "name": "粽葉裡的小陳晉",
+    "category": "分件組裝",
+    "image": "assets/zongzi_assembly_3parts_color_100mm/assembled.png",
+    "guide": "粽子三件原色_組裝說明.html",
+    "description": "熟悉的笑容，包進一顆圓滾滾的粽子。",
+    "type": "三件組裝",
+    "time": "13 小時 24 分",
+    "price": 0,
+    "files": [
+      "粽子三件原色_01_粽子身體_綠色.3mf",
+      "粽子三件原色_02_臉_原色三色合印.3mf",
+      "粽子三件原色_03_頭髮_黑色.3mf"
+    ],
+    "bundle": "downloads/zongzi.zip",
+    "size": 3.4
+  },
+  {
+    "id": "color",
+    "name": "經典粽子・四色",
+    "category": "一體成形",
+    "image": "assets/zongzi_multicolor_100mm/three_quarter.png",
+    "guide": "粽子單件四色_選色預覽.html",
+    "description": "一次成形，讓四種色彩一起說故事。",
+    "type": "四色一體",
+    "time": "25 小時 32 分",
+    "price": 0,
+    "files": [
+      "粽子單件四色_Q版粽子人物_100mm_四區可選色.3mf"
+    ],
+    "bundle": "downloads/color.zip",
+    "size": 32.0
+  },
+  {
+    "id": "mono",
+    "name": "經典粽子・單色",
+    "category": "一體成形",
+    "image": "assets/zongzi_100mm/three_quarter.png",
+    "guide": "粽子單件單色_模型預覽.html",
+    "description": "留下造型的純粹，選一卷你喜歡的線材。",
+    "type": "單色一體",
+    "time": "7 小時 56 分",
+    "price": 0,
+    "files": [
+      "粽子單件單色_01_Q版粽子人物_100mm_通用模型.3mf",
+      "粽子單件單色_02_Q版粽子人物_100mm_X1C_PLA_支撐設定.3mf"
+    ],
+    "bundle": "downloads/mono.zip",
+    "size": 71.8
+  }
+]

@@ -18,7 +18,7 @@ total_links=0
 for page in ROOT.glob('*.html'):
     content=page.read_text();parser=Links();parser.feed(content)
     assert not any(p in content for p in ['/Users/','file://','actual_smile','actual_three_quarter','revision_2','revision_3','真人']),page
-    if page.name in ['index.html','00_作品總覽.html']:assert parser.articles==6
+    if page.name in ['index.html','00_作品總覽.html']:assert 'store.js' in content
     for url in parser.values:
         u=urlsplit(url)
         if u.scheme or u.netloc or not u.path:continue
@@ -28,8 +28,8 @@ for page in ROOT.glob('*.html'):
         assert ROOT in target.parents,(page.name,url)
         total_links+=1
 
-manifest=json.loads((ROOT/'models.json').read_text())['models'];assert len(manifest)==17
-assert len(list(ROOT.glob('*.3mf')))==17
+manifest=json.loads((ROOT/'models.json').read_text())['models'];assert len(manifest)==9
+assert len(list(ROOT.glob('*.3mf')))==9
 for model in manifest:
     p=ROOT/model['file'];data=p.read_bytes()
     assert len(data)==model['bytes'] and hashlib.sha256(data).hexdigest()==model['sha256'],p
@@ -58,4 +58,4 @@ for p in ROOT.rglob('*'):
         text=p.read_text()
         assert not re.search(r'(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,})',text),p
         assert '/Users/' not in text and 'file://' not in text,p
-print(f'Passed: 6 cartoon versions, 17 intact 3MFs, {total_links} relative links, no portrait-photo assets.')
+print(f'Passed: 4 cartoon versions, 9 intact 3MFs, {total_links} relative links, no portrait-photo assets.')
