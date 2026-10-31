@@ -1,21 +1,21 @@
 [
   {
     "id": "ghost",
-    "name": "披風裡的小陳晉",
+    "name": "披風裡的小陳晉・精修版",
     "category": "節日限定",
     "image": "assets/ghost_100mm/assembled.png",
     "guide": "幽靈_組裝說明.html",
-    "description": "白色披風輕輕飄來，帶著一點無害的驚喜。",
+    "description": "垂墜的皺褶、柔軟袖角，藏著一點無害的驚喜。",
     "type": "三件組裝",
-    "time": "13 小時 37 分",
+    "time": "13 小時 20 分",
     "price": 0,
     "files": [
       "幽靈_01_幽靈身體_白色.3mf",
       "幽靈_02_臉_原色三色合印.3mf",
       "幽靈_03_頭髮_黑色.3mf"
     ],
-    "bundle": "downloads/ghost.zip",
-    "size": 3.7
+    "bundle": "downloads/ghost-refined.zip",
+    "size": 4.2
   },
   {
     "id": "pumpkin",
