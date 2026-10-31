@@ -143,45 +143,45 @@
   },
   {
     "id": "kitty",
-    "name": "貓耳帽裡的小陳晉",
+    "name": "貓耳小陳晉",
     "category": "角色造型",
     "image": "assets/hello_kitty_100mm/assembled.png",
-    "description": "身體比例加大，貓耳帽與吊帶裝更有份量。",
+    "description": "延續原系列的頭身比例，熟悉的黑髮加上白色貓耳。",
     "price": 0,
     "variants": [
       {
         "id": "assembled-color",
         "construction": "分件組裝",
         "label": "原配色・三件組裝",
-        "note": "新版放大身體並調整頭身比例；請列印同版本三件。三盤皆為多色列印。",
+        "note": "維持原系列頭身比例；保留黑髮、加上白色貓耳。三件分開列印，多色盤需要換色。",
         "price": 0,
         "files": [
           "HelloKitty_01_吊帶裝與手腳_三色合印.3mf",
           "HelloKitty_02_臉_原色三色合印.3mf",
-          "HelloKitty_03_貓耳帽與蝴蝶結_兩色合印.3mf"
+          "HelloKitty_03_黑髮與貓耳_兩色合印.3mf"
         ],
         "bundle": "downloads/kitty-assembled-color.zip",
-        "size": 2.6,
+        "size": 3.4,
         "guide": "HelloKitty_組裝說明.html",
         "image": "assets/hello_kitty_100mm/assembled.png",
-        "time": "27 小時 41 分"
+        "time": "26 小時 49 分"
       },
       {
         "id": "assembled-fast",
         "construction": "分件組裝",
         "label": "省時補色版・三件組裝",
-        "note": "身體與帽子單色印出後自行補色，臉仍保留三色。新版比例需使用同版本的三件零件。",
+        "note": "身體和頭髮單色印出，白色貓耳與衣服細節需手工補色；臉仍保留三色。",
         "price": 0,
         "files": [
           "HelloKitty_04_吊帶裝與手腳_省時單色版.3mf",
           "HelloKitty_02_臉_原色三色合印.3mf",
-          "HelloKitty_05_貓耳帽_省時單色版.3mf"
+          "HelloKitty_05_黑髮與貓耳_省時單色版.3mf"
         ],
         "bundle": "downloads/kitty-assembled-fast.zip",
-        "size": 2.4,
+        "size": 3.2,
         "guide": "HelloKitty_組裝說明.html",
         "image": "assets/hello_kitty_100mm/assembled.png",
-        "time": "10 小時 49 分"
+        "time": "12 小時 9 分"
       },
       {
         "id": "solid-mono",
@@ -193,10 +193,10 @@
           "HelloKitty_一體成型_單色.3mf"
         ],
         "bundle": "downloads/kitty-onepiece.zip",
-        "size": 1.7,
+        "size": 2.3,
         "guide": "HelloKitty_一體成型說明.html",
         "image": "assets/hello_kitty_100mm/solid.png",
-        "time": "6 小時 46 分"
+        "time": "6 小時 59 分"
       }
     ]
   }

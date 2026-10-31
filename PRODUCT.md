@@ -13,4 +13,4 @@ Remove single-color three-part and eight-part zongzi versions. Retain ghost, Hal
 User has been asked for free versus paid distribution, prices and payment provider. Until supplied, checkout is explicitly free. No payment processing is represented as active.
 
 ## Product variants
-Four designs: ghost, pumpkin, zongzi and kitty. Each product exposes one-piece and assembly options. Construction choice and color option must persist through cart and downloads. Kitty body proportions are enlarged, while total height stays 100 mm. Pricing clarification remains unanswered, so all prices retain the existing free value.
+Four designs: ghost, pumpkin, zongzi and kitty. Each product exposes one-piece and assembly options. Construction choice and color option must persist through cart and downloads. Kitty uses the original series proportions and black hair with white cat ears only; no hat or bow. Pricing clarification remains unanswered, so all prices retain the existing free value.
