@@ -1,5 +1,25 @@
 [
   {
+    "id": "kitty",
+    "name": "貓耳帽裡的小陳晉",
+    "category": "角色造型",
+    "image": "assets/hello_kitty_100mm/assembled.png",
+    "guide": "HelloKitty_組裝說明.html",
+    "description": "紅蝴蝶結與藍吊帶裝，收藏一點熟悉的可愛。",
+    "type": "三件組裝・附省時檔",
+    "time": "27 小時 15 分",
+    "price": 0,
+    "files": [
+      "HelloKitty_01_吊帶裝與手腳_三色合印.3mf",
+      "HelloKitty_02_臉_原色三色合印.3mf",
+      "HelloKitty_03_貓耳帽與蝴蝶結_兩色合印.3mf",
+      "HelloKitty_04_吊帶裝與手腳_省時單色版.3mf",
+      "HelloKitty_05_貓耳帽_省時單色版.3mf"
+    ],
+    "bundle": "downloads/hello-kitty.zip",
+    "size": 3.6
+  },
+  {
     "id": "ghost",
     "name": "披風裡的小陳晉・飄逸版",
     "category": "節日限定",

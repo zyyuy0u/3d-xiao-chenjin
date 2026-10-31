@@ -1,0 +1,316 @@
+{
+  "title": "Hello Kitty 造型小陳晉",
+  "physical_parts": 3,
+  "projects": 5,
+  "full_color_seconds": 98078,
+  "optional_single_color_seconds": 42018,
+  "design": {
+    "units": "millimeter",
+    "physical_pieces": 3,
+    "face_preserved": true,
+    "physical_test_print": false,
+    "parts": {
+      "assembled_01_costume": {
+        "volume_mm3": 57637.80322551456,
+        "triangles": 24292,
+        "closed": true,
+        "components": 1
+      },
+      "assembled_03_hair": {
+        "volume_mm3": 96984.89882646197,
+        "triangles": 21568,
+        "closed": true,
+        "components": 1
+      },
+      "body_white": {
+        "volume_mm3": 21407.489607003892,
+        "triangles": 16976,
+        "closed": true,
+        "components": 5
+      },
+      "body_blue": {
+        "volume_mm3": 26781.541956546323,
+        "triangles": 14914,
+        "closed": true,
+        "components": 1
+      },
+      "body_yellow": {
+        "volume_mm3": 9448.771659770253,
+        "triangles": 10670,
+        "closed": true,
+        "components": 1
+      },
+      "hood_white": {
+        "volume_mm3": 94064.02762086042,
+        "triangles": 18674,
+        "closed": true,
+        "components": 1
+      },
+      "hood_red": {
+        "volume_mm3": 2920.871204929113,
+        "triangles": 8292,
+        "closed": true,
+        "components": 1
+      }
+    },
+    "assembled_height_mm": 100.0
+  },
+  "assembly": {
+    "overlaps_mm3": {
+      "01_costume / 02_face": 0.0,
+      "01_costume / 03_hair": 0.0,
+      "02_face / 03_hair": 0.0
+    },
+    "removal_paths": {
+      "03_hair": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      },
+      "02_face": {
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "sample_spacing_mm": 0.25,
+        "maximum_overlap_mm3": 0.0,
+        "collisions": []
+      }
+    },
+    "physical_fit_test_performed": false,
+    "assembled_dimensions_mm": [
+      75.0,
+      66.62370681762695,
+      100.0
+    ],
+    "all_paths_passed": true
+  },
+  "slicing": {
+    "plates": [
+      {
+        "plate": "01",
+        "name": "01_吊帶裝與手腳_三色合印.3mf",
+        "seconds": 47285,
+        "filament_g": 241.02,
+        "filament_slots": 3,
+        "toolchange_blocks": 304,
+        "mid_print_material_changes": 304,
+        "prime_tower": true,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 3.0
+      },
+      {
+        "plate": "02",
+        "name": "02_臉_原色三色合印.3mf",
+        "seconds": 25442,
+        "filament_g": 116.66,
+        "filament_slots": 3,
+        "toolchange_blocks": 133,
+        "mid_print_material_changes": 133,
+        "prime_tower": true,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 4.5
+      },
+      {
+        "plate": "03",
+        "name": "03_貓耳帽與蝴蝶結_兩色合印.3mf",
+        "seconds": 25351,
+        "filament_g": 122.62,
+        "filament_slots": 2,
+        "toolchange_blocks": 100,
+        "mid_print_material_changes": 100,
+        "prime_tower": true,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 5.0
+      },
+      {
+        "plate": "04",
+        "name": "04_吊帶裝與手腳_省時單色版.3mf",
+        "seconds": 5962,
+        "filament_g": 23.77,
+        "filament_slots": 1,
+        "toolchange_blocks": 0,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 2.5
+      },
+      {
+        "plate": "05",
+        "name": "05_貓耳帽_省時單色版.3mf",
+        "seconds": 10614,
+        "filament_g": 41.88,
+        "filament_slots": 1,
+        "toolchange_blocks": 0,
+        "mid_print_material_changes": 0,
+        "prime_tower": false,
+        "outside_build_area": false,
+        "support_used": "true",
+        "warnings": [
+          {
+            "msg": "bed_temperature_too_high_than_filament",
+            "level": "3",
+            "error_code": "1000C001"
+          }
+        ],
+        "object_count": 1,
+        "slice_runtime_sec": 3.6
+      }
+    ],
+    "main_plates_total_seconds": 98078,
+    "main_plates_total_filament_g": 480.3,
+    "optional_single_color_total_seconds": 42018,
+    "fit_test_included_in_total": false,
+    "physical_test_print": false,
+    "print_job_sent": false
+  },
+  "slicer_validation": [
+    {
+      "plate": "01",
+      "physical_objects": 1,
+      "material_volumes": 3,
+      "material_assignments": [
+        {
+          "label": "白色手腳與鈕扣",
+          "slot": 1,
+          "color": "#F3F0E7"
+        },
+        {
+          "label": "藍色吊帶裝",
+          "slot": 2,
+          "color": "#145CAE"
+        },
+        {
+          "label": "黃色上衣",
+          "slot": 3,
+          "color": "#F3CD29"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.3966478752966773e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": true
+    },
+    {
+      "plate": "02",
+      "physical_objects": 1,
+      "material_volumes": 3,
+      "material_assignments": [
+        {
+          "label": "臉與耳朵",
+          "slot": 1,
+          "color": "#F5C39E"
+        },
+        {
+          "label": "眉毛與小鬍子",
+          "slot": 2,
+          "color": "#27272B"
+        },
+        {
+          "label": "眼鏡含鏡片",
+          "slot": 3,
+          "color": "#607F92"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.6752679323464426e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": true
+    },
+    {
+      "plate": "03",
+      "physical_objects": 1,
+      "material_volumes": 2,
+      "material_assignments": [
+        {
+          "label": "白色貓耳帽",
+          "slot": 1,
+          "color": "#F3F0E7"
+        },
+        {
+          "label": "紅色蝴蝶結",
+          "slot": 2,
+          "color": "#F51145"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.3984455793788778e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": true
+    },
+    {
+      "plate": "04",
+      "physical_objects": 1,
+      "material_volumes": 1,
+      "material_assignments": [
+        {
+          "label": "整件藍色，手工補色用",
+          "slot": 1,
+          "color": "#145CAE"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.3920222903192175e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": false
+    },
+    {
+      "plate": "05",
+      "physical_objects": 1,
+      "material_volumes": 1,
+      "material_assignments": [
+        {
+          "label": "整件白色，蝴蝶結手工補色用",
+          "slot": 1,
+          "color": "#F3F0E7"
+        }
+      ],
+      "max_roundtrip_error_mm": 1.420987625727364e-05,
+      "all_volumes_closed": true,
+      "mesh_repairs": 0,
+      "prime_tower": false
+    }
+  ]
+}

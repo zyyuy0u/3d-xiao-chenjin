@@ -5,7 +5,7 @@ from urllib.parse import urlsplit,unquote
 import hashlib,json,re,zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
-GROUPS={'ghost_100mm','halloween_pumpkin_100mm','zongzi_assembly_3parts_color_100mm',
+GROUPS={'hello_kitty_100mm','ghost_100mm','halloween_pumpkin_100mm','zongzi_assembly_3parts_color_100mm',
     'zongzi_assembly_3parts_100mm','zongzi_assembly_100mm','zongzi_multicolor_100mm','zongzi_100mm'}
 class Links(HTMLParser):
     def __init__(self):super().__init__();self.values=[];self.articles=0
@@ -28,12 +28,12 @@ for page in ROOT.glob('*.html'):
         assert ROOT in target.parents,(page.name,url)
         total_links+=1
 
-manifest=json.loads((ROOT/'models.json').read_text())['models'];assert len(manifest)==12
-assert len(list(ROOT.glob('*.3mf')))==12
+manifest=json.loads((ROOT/'models.json').read_text())['models'];assert len(manifest)==17
+assert len(list(ROOT.glob('*.3mf')))==17
 for model in manifest:
     p=ROOT/model['file'];data=p.read_bytes()
     assert len(data)==model['bytes'] and hashlib.sha256(data).hexdigest()==model['sha256'],p
-    assert p.name.startswith(('萬聖節_','幽靈_','粽子'))
+    assert p.name.startswith(('萬聖節_','幽靈_','HelloKitty_','粽子'))
     with zipfile.ZipFile(p) as z:
         assert z.testzip() is None
         if 'Metadata/project_settings.config' in z.namelist():
@@ -58,4 +58,4 @@ for p in ROOT.rglob('*'):
         text=p.read_text()
         assert not re.search(r'(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,})',text),p
         assert '/Users/' not in text and 'file://' not in text,p
-print(f'Passed: 5 cartoon versions, 12 intact 3MFs, {total_links} relative links, no portrait-photo assets.')
+print(f'Passed: 6 cartoon versions, 17 intact 3MFs, {total_links} relative links, no portrait-photo assets.')
