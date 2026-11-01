@@ -1,12 +1,19 @@
 {
   "name": "\u6708\u591c\u4f2f\u7235\u5c0f\u9673\u6649",
   "physical_pieces": 3,
+  "torso_width_mm": 84,
+  "torso_depth_mm": 60,
+  "previous_torso_width_mm": 68,
   "features": [
     "scalloped bat wings",
     "raised wing ribs",
     "standing collar",
     "burgundy vest",
-    "gold crescent brooch"
+    "gold crescent brooch",
+    "gold buttons",
+    "raised lapel piping",
+    "curved scalloped wing membrane",
+    "sculpted cape folds"
   ],
   "minimum_wing_thickness_mm": 5,
   "physical_test_print": false
