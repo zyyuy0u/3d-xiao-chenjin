@@ -17,7 +17,7 @@
     "cupped wing membranes",
     "tapered curved finger bones",
     "rounded scallop edging",
-    "burgundy-lined upright collar",
+    "all-black upright collar",
     "broad folded lapels"
   ],
   "nominal_wing_membrane_thickness_mm": 4.2,
@@ -25,5 +25,7 @@
   "lapel_thickness_mm": 3.1,
   "collar_height_mm": 64,
   "physical_test_print": false,
-  "enclosed_root_voids_filled_mm3": 35.91745934998258
+  "enclosed_root_voids_filled_mm3": 35.91745934998258,
+  "upright_side_panels_color": "#27272B",
+  "red_region": "torso only"
 }
