@@ -1,0 +1,49 @@
+{
+  "color": {
+    "id": "count",
+    "file": "月夜伯爵_一體成型_原配色.3mf",
+    "colors": 5,
+    "material_colors": [
+      {
+        "name": "黑色披風頭髮與細節",
+        "hex": "#27272B"
+      },
+      {
+        "name": "酒紅禮服",
+        "hex": "#762947"
+      },
+      {
+        "name": "金色新月胸針",
+        "hex": "#E5B552"
+      },
+      {
+        "name": "膚色臉",
+        "hex": "#F5C39E"
+      },
+      {
+        "name": "藍灰眼鏡",
+        "hex": "#607F92"
+      }
+    ],
+    "seconds": 119195,
+    "filament_g": 568.13,
+    "components": 1,
+    "material_regions_closed": true,
+    "max_boolean_overlap_mm3": 0.13990320390512526,
+    "union_difference_mm3": 1.052852651977446,
+    "native_roundtrip_error_mm": 1.3641199285992456e-05,
+    "mesh_repairs": 0,
+    "physical_test_print": false
+  },
+  "mono": {
+    "id": "count",
+    "label": "月夜伯爵",
+    "file": "月夜伯爵_一體成型_單色.3mf",
+    "seconds": 28683,
+    "filament_g": 116.47,
+    "components": 1,
+    "closed": true,
+    "body_height_mm": 99.99169921875,
+    "physical_test_print": false
+  }
+}

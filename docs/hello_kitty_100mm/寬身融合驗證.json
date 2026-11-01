@@ -8,5 +8,9 @@
   "physical_test_print": false,
   "torso_width_mm": 84.90607070922852,
   "bow_color": "#E82750",
-  "name": "Hello Kitty 小陳晉"
+  "name": "Hello Kitty 小陳晉",
+  "ear_inset_additional_mm": {
+    "back": 6,
+    "down": 3
+  }
 }

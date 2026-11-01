@@ -1,0 +1,13 @@
+{
+  "name": "\u6708\u591c\u4f2f\u7235\u5c0f\u9673\u6649",
+  "physical_pieces": 3,
+  "features": [
+    "scalloped bat wings",
+    "raised wing ribs",
+    "standing collar",
+    "burgundy vest",
+    "gold crescent brooch"
+  ],
+  "minimum_wing_thickness_mm": 5,
+  "physical_test_print": false
+}

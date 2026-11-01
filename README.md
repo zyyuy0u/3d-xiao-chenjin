@@ -1,6 +1,6 @@
 # 小陳晉製造所
 
-數位公仔模型商店，依造型整理為 4 個商品：幽靈、南瓜、粽子、Hello Kitty 小陳晉。
+數位公仔模型商店，依造型整理為 5 個商品：月夜伯爵、幽靈、南瓜、粽子、Hello Kitty 小陳晉。
 
 網站：https://zyyuy0u.github.io/3d-xiao-chenjin/
 
@@ -17,7 +17,7 @@
 
 ## 維護與檢查
 
-`products.json` 以造型定義商品，每個商品的 `variants` 保存形式、配色、下載包與時間估計。`models.json` 保存 23 份 3MF 的 SHA-256。`assets/` 只有實際模型渲染，沒有原始人像照片。
+`products.json` 以造型定義商品，每個商品的 `variants` 保存形式、配色、下載包與時間估計。`models.json` 保存 28 份 3MF 的 SHA-256。`assets/` 只有實際模型渲染，沒有原始人像照片。
 
 ```sh
 python3 -m http.server 8765
@@ -25,3 +25,5 @@ python3 tools/validate_site.py
 ```
 
 Hello Kitty 小陳晉保留加寬身體與融合貓耳，右側加上立體紅色蝴蝶結；頭髮、貓耳與蝴蝶結仍為同一個組裝件。
+
+月夜伯爵小陳晉提供三件原配色組裝、五色一體成型與單色一體成型；蝠翼厚度 5 mm，實際模型與切片已驗證，尚未實體試印。

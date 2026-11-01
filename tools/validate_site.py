@@ -5,7 +5,7 @@ from urllib.parse import urlsplit,unquote
 import hashlib,json,re,zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
-GROUPS={'hello_kitty_100mm','ghost_100mm','halloween_pumpkin_100mm','zongzi_assembly_3parts_color_100mm',
+GROUPS={'moon_count_100mm','hello_kitty_100mm','ghost_100mm','halloween_pumpkin_100mm','zongzi_assembly_3parts_color_100mm',
     'zongzi_assembly_3parts_100mm','zongzi_assembly_100mm','zongzi_multicolor_100mm','zongzi_100mm'}
 class Links(HTMLParser):
     def __init__(self):super().__init__();self.values=[];self.articles=0
@@ -28,12 +28,12 @@ for page in ROOT.glob('*.html'):
         assert ROOT in target.parents,(page.name,url)
         total_links+=1
 
-manifest=json.loads((ROOT/'models.json').read_text())['models'];assert len(manifest)==23
-assert len(list(ROOT.glob('*.3mf')))==23
+manifest=json.loads((ROOT/'models.json').read_text())['models'];assert len(manifest)==28
+assert len(list(ROOT.glob('*.3mf')))==28
 for model in manifest:
     p=ROOT/model['file'];data=p.read_bytes()
     assert len(data)==model['bytes'] and hashlib.sha256(data).hexdigest()==model['sha256'],p
-    assert p.name.startswith(('萬聖節_','幽靈_','HelloKitty_','粽子'))
+    assert p.name.startswith(('萬聖節_','幽靈_','HelloKitty_','粽子','月夜伯爵_'))
     with zipfile.ZipFile(p) as z:
         assert z.testzip() is None
         if 'Metadata/project_settings.config' in z.namelist():
@@ -58,10 +58,10 @@ for p in ROOT.rglob('*'):
         text=p.read_text()
         assert not re.search(r'(?:gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,})',text),p
         assert '/Users/' not in text and 'file://' not in text,p
-print(f'Passed: 4 product designs, 23 intact 3MFs, {total_links} relative links, no portrait-photo assets.')
+print(f'Passed: 5 product designs, 28 intact 3MFs, {total_links} relative links, no portrait-photo assets.')
 
 products=json.loads((ROOT/'products.json').read_text())
-assert len(products)==4 and {p['id'] for p in products}=={'ghost','pumpkin','zongzi','kitty'}
+assert len(products)==5 and {p['id'] for p in products}=={'ghost','pumpkin','zongzi','kitty','count'}
 model_files={p['file'] for p in manifest}
 for product in products:
     assert {v['construction'] for v in product['variants']}=={'一體成型','分件組裝'},product['id']
@@ -74,7 +74,7 @@ for product in products:
             for name in v['files']:
                 with zipfile.ZipFile(ROOT/name) as z:
                     cfg=json.loads(z.read('Metadata/project_settings.config'))
-                    assert len(cfg['filament_colour'])==(7 if product['id']=='kitty' else 4)
+                    assert len(cfg['filament_colour'])==(7 if product['id']=='kitty' else 5 if product['id']=='count' else 4)
                     assert cfg['enable_prime_tower']=='1'
                     from xml.etree import ElementTree as ET
                     c=ET.fromstring(z.read('Metadata/model_settings.config'))
@@ -87,4 +87,4 @@ for product in products:
             assert {n for n in z.namelist() if n.endswith('.3mf')}==set(v['files'])
             for name in v['files']:
                 assert hashlib.sha256(z.read(name)).digest()==hashlib.sha256((ROOT/name).read_bytes()).digest()
-print('Passed: all four products expose both construction modes; every variant ZIP contains its exact selected model files.')
+print('Passed: all five products expose both construction modes; every variant ZIP contains its exact selected model files.')

@@ -32,13 +32,13 @@
       "hex": "#E82750"
     }
   ],
-  "seconds": 151552,
-  "filament_g": 749.44,
+  "seconds": 151376,
+  "filament_g": 749.36,
   "components": 1,
   "material_regions_closed": true,
   "max_boolean_overlap_mm3": 0.10212479807149788,
-  "union_difference_mm3": 0.00018846994498744607,
-  "native_roundtrip_error_mm": 1.7897381475323428e-05,
+  "union_difference_mm3": 0.001124601170886308,
+  "native_roundtrip_error_mm": 1.7948860103999848e-05,
   "mesh_repairs": 0,
   "physical_test_print": false
 }

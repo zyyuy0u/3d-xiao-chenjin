@@ -2,8 +2,8 @@
   "title": "Hello Kitty 造型小陳晉",
   "physical_parts": 3,
   "projects": 5,
-  "full_color_seconds": 118382,
-  "optional_single_color_seconds": 47513,
+  "full_color_seconds": 118323,
+  "optional_single_color_seconds": 47378,
   "design": {
     "body_width_mm": 103.53548431396484,
     "head_width_mm": 71.83136367797852,
@@ -14,7 +14,11 @@
     "physical_test_print": false,
     "torso_width_mm": 84.90607070922852,
     "bow_color": "#E82750",
-    "name": "Hello Kitty 小陳晉"
+    "name": "Hello Kitty 小陳晉",
+    "ear_inset_additional_mm": {
+      "back": 6,
+      "down": 3
+    }
   },
   "assembly": {
     "overlaps_mm3": {
@@ -47,7 +51,7 @@
     "physical_fit_test_performed": false,
     "assembled_dimensions_mm": [
       103.51466369628906,
-      63.85757064819336,
+      63.85757827758789,
       99.9515305608511
     ],
     "all_paths_passed": true
@@ -57,8 +61,8 @@
       {
         "plate": "01",
         "name": "01_吊帶裝與手腳_三色合印.3mf",
-        "seconds": 54136,
-        "filament_g": 271.25,
+        "seconds": 54158,
+        "filament_g": 271.32,
         "filament_slots": 3,
         "toolchange_blocks": 320,
         "mid_print_material_changes": 320,
@@ -73,13 +77,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 13.7
+        "slice_runtime_sec": 15.2
       },
       {
         "plate": "02",
         "name": "02_臉_原色三色合印.3mf",
-        "seconds": 25417,
-        "filament_g": 116.54,
+        "seconds": 25415,
+        "filament_g": 116.57,
         "filament_slots": 3,
         "toolchange_blocks": 133,
         "mid_print_material_changes": 133,
@@ -94,16 +98,16 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 4.5
+        "slice_runtime_sec": 4.0
       },
       {
         "plate": "03",
         "name": "03_黑髮貓耳與蝴蝶結_三色合印.3mf",
-        "seconds": 38829,
-        "filament_g": 179.41,
+        "seconds": 38750,
+        "filament_g": 181.01,
         "filament_slots": 3,
-        "toolchange_blocks": 196,
-        "mid_print_material_changes": 196,
+        "toolchange_blocks": 198,
+        "mid_print_material_changes": 198,
         "prime_tower": true,
         "outside_build_area": false,
         "support_used": "true",
@@ -115,13 +119,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 12.2
+        "slice_runtime_sec": 11.7
       },
       {
         "plate": "04",
         "name": "04_吊帶裝與手腳_省時單色版.3mf",
-        "seconds": 10069,
-        "filament_g": 42.85,
+        "seconds": 10063,
+        "filament_g": 42.78,
         "filament_slots": 1,
         "toolchange_blocks": 0,
         "mid_print_material_changes": 0,
@@ -136,13 +140,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 12.2
+        "slice_runtime_sec": 12.4
       },
       {
         "plate": "05",
         "name": "05_黑髮貓耳與蝴蝶結_省時單色版.3mf",
-        "seconds": 12027,
-        "filament_g": 42.03,
+        "seconds": 11900,
+        "filament_g": 41.57,
         "filament_slots": 1,
         "toolchange_blocks": 0,
         "mid_print_material_changes": 0,
@@ -157,12 +161,12 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 9.5
+        "slice_runtime_sec": 16.2
       }
     ],
-    "main_plates_total_seconds": 118382,
-    "main_plates_total_filament_g": 567.2,
-    "optional_single_color_total_seconds": 47513,
+    "main_plates_total_seconds": 118323,
+    "main_plates_total_filament_g": 568.9,
+    "optional_single_color_total_seconds": 47378,
     "fit_test_included_in_total": false,
     "physical_test_print": false,
     "print_job_sent": false
@@ -241,7 +245,7 @@
           "color": "#E82750"
         }
       ],
-      "max_roundtrip_error_mm": 1.7901084968659215e-05,
+      "max_roundtrip_error_mm": 1.7376875979712328e-05,
       "all_volumes_closed": true,
       "mesh_repairs": 0,
       "prime_tower": true
@@ -273,7 +277,7 @@
           "color": "#27272B"
         }
       ],
-      "max_roundtrip_error_mm": 1.4275797487804938e-05,
+      "max_roundtrip_error_mm": 1.436561653421372e-05,
       "all_volumes_closed": true,
       "mesh_repairs": 0,
       "prime_tower": false

@@ -1,0 +1,36 @@
+{
+  "overlaps_mm3": {
+    "01_costume / 02_face": 0.0,
+    "01_costume / 03_hair": 0.0,
+    "02_face / 03_hair": 0.0
+  },
+  "removal_paths": {
+    "03_hair": {
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "sample_spacing_mm": 0.25,
+      "maximum_overlap_mm3": 0.0,
+      "collisions": []
+    },
+    "02_face": {
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "sample_spacing_mm": 0.25,
+      "maximum_overlap_mm3": 0.0,
+      "collisions": []
+    }
+  },
+  "physical_fit_test_performed": false,
+  "assembled_dimensions_mm": [
+    119.75334930419922,
+    68.15554428100586,
+    99.99169921875
+  ],
+  "all_paths_passed": true
+}

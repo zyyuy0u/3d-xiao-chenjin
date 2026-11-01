@@ -1,0 +1,70 @@
+[
+  {
+    "plate": "01",
+    "physical_objects": 1,
+    "material_volumes": 3,
+    "material_assignments": [
+      {
+        "label": "黑色披風與蝠翼",
+        "slot": 1,
+        "color": "#27272B"
+      },
+      {
+        "label": "酒紅禮服",
+        "slot": 2,
+        "color": "#762947"
+      },
+      {
+        "label": "金色新月胸針",
+        "slot": 3,
+        "color": "#E5B552"
+      }
+    ],
+    "max_roundtrip_error_mm": 1.2721560074417861e-05,
+    "all_volumes_closed": true,
+    "mesh_repairs": 0,
+    "prime_tower": true
+  },
+  {
+    "plate": "02",
+    "physical_objects": 1,
+    "material_volumes": 3,
+    "material_assignments": [
+      {
+        "label": "臉與耳朵",
+        "slot": 1,
+        "color": "#F5C39E"
+      },
+      {
+        "label": "眉毛與小鬍子",
+        "slot": 2,
+        "color": "#27272B"
+      },
+      {
+        "label": "眼鏡",
+        "slot": 3,
+        "color": "#607F92"
+      }
+    ],
+    "max_roundtrip_error_mm": 1.6752679323464426e-05,
+    "all_volumes_closed": true,
+    "mesh_repairs": 0,
+    "prime_tower": true
+  },
+  {
+    "plate": "03",
+    "physical_objects": 1,
+    "material_volumes": 1,
+    "material_assignments": [
+      {
+        "label": "黑色頭髮",
+        "slot": 1,
+        "color": "#27272B"
+      }
+    ],
+    "max_roundtrip_error_mm": 1.4014198778970353e-05,
+    "all_volumes_closed": true,
+    "mesh_repairs": 0,
+    "prime_tower": false
+  }
+]
