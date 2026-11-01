@@ -1,7 +1,7 @@
 {
   "id": "kitty",
   "file": "HelloKitty_一體成型_原配色.3mf",
-  "colors": 6,
+  "colors": 7,
   "material_colors": [
     {
       "name": "藍色吊帶裝",
@@ -26,14 +26,18 @@
     {
       "name": "黃色上衣",
       "hex": "#F3CD29"
+    },
+    {
+      "name": "紅色蝴蝶結",
+      "hex": "#E82750"
     }
   ],
-  "seconds": 136686,
-  "filament_g": 668.87,
+  "seconds": 151552,
+  "filament_g": 749.44,
   "components": 1,
   "material_regions_closed": true,
   "max_boolean_overlap_mm3": 0.10212479807149788,
-  "union_difference_mm3": 0.00020015379413962364,
+  "union_difference_mm3": 0.00018846994498744607,
   "native_roundtrip_error_mm": 1.7897381475323428e-05,
   "mesh_repairs": 0,
   "physical_test_print": false

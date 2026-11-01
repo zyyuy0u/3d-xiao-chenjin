@@ -74,7 +74,7 @@ for product in products:
             for name in v['files']:
                 with zipfile.ZipFile(ROOT/name) as z:
                     cfg=json.loads(z.read('Metadata/project_settings.config'))
-                    assert len(cfg['filament_colour'])==(6 if product['id']=='kitty' else 4)
+                    assert len(cfg['filament_colour'])==(7 if product['id']=='kitty' else 4)
                     assert cfg['enable_prime_tower']=='1'
                     from xml.etree import ElementTree as ET
                     c=ET.fromstring(z.read('Metadata/model_settings.config'))
