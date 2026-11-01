@@ -2,8 +2,8 @@
   "title": "Hello Kitty 造型小陳晉",
   "physical_parts": 3,
   "projects": 5,
-  "full_color_seconds": 118323,
-  "optional_single_color_seconds": 47378,
+  "full_color_seconds": 129130,
+  "optional_single_color_seconds": 58301,
   "design": {
     "body_width_mm": 103.53548431396484,
     "head_width_mm": 71.83136367797852,
@@ -18,6 +18,16 @@
     "ear_inset_additional_mm": {
       "back": 6,
       "down": 3
+    },
+    "cat_whiskers": {
+      "strokes_per_cheek": 3,
+      "radius_mm": [
+        0.47,
+        0.55
+      ],
+      "color": "#27272B",
+      "additional_filaments": 0,
+      "stroke_volume_mm3": 61.459461017969986
     }
   },
   "assembly": {
@@ -61,8 +71,8 @@
       {
         "plate": "01",
         "name": "01_吊帶裝與手腳_三色合印.3mf",
-        "seconds": 54158,
-        "filament_g": 271.32,
+        "seconds": 54123,
+        "filament_g": 271.25,
         "filament_slots": 3,
         "toolchange_blocks": 320,
         "mid_print_material_changes": 320,
@@ -77,16 +87,16 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 15.2
+        "slice_runtime_sec": 13.7
       },
       {
         "plate": "02",
         "name": "02_臉_原色三色合印.3mf",
-        "seconds": 25415,
-        "filament_g": 116.57,
+        "seconds": 36236,
+        "filament_g": 170.03,
         "filament_slots": 3,
-        "toolchange_blocks": 133,
-        "mid_print_material_changes": 133,
+        "toolchange_blocks": 221,
+        "mid_print_material_changes": 221,
         "prime_tower": true,
         "outside_build_area": false,
         "support_used": "true",
@@ -98,13 +108,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 4.0
+        "slice_runtime_sec": 3.9
       },
       {
         "plate": "03",
         "name": "03_黑髮貓耳與蝴蝶結_三色合印.3mf",
-        "seconds": 38750,
-        "filament_g": 181.01,
+        "seconds": 38771,
+        "filament_g": 181.03,
         "filament_slots": 3,
         "toolchange_blocks": 198,
         "mid_print_material_changes": 198,
@@ -119,13 +129,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 11.7
+        "slice_runtime_sec": 11.1
       },
       {
         "plate": "04",
         "name": "04_吊帶裝與手腳_省時單色版.3mf",
-        "seconds": 10063,
-        "filament_g": 42.78,
+        "seconds": 10086,
+        "filament_g": 42.89,
         "filament_slots": 1,
         "toolchange_blocks": 0,
         "mid_print_material_changes": 0,
@@ -140,13 +150,13 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 12.4
+        "slice_runtime_sec": 11.5
       },
       {
         "plate": "05",
         "name": "05_黑髮貓耳與蝴蝶結_省時單色版.3mf",
-        "seconds": 11900,
-        "filament_g": 41.57,
+        "seconds": 11979,
+        "filament_g": 41.75,
         "filament_slots": 1,
         "toolchange_blocks": 0,
         "mid_print_material_changes": 0,
@@ -161,12 +171,12 @@
           }
         ],
         "object_count": 1,
-        "slice_runtime_sec": 16.2
+        "slice_runtime_sec": 8.7
       }
     ],
-    "main_plates_total_seconds": 118323,
-    "main_plates_total_filament_g": 568.9,
-    "optional_single_color_total_seconds": 47378,
+    "main_plates_total_seconds": 129130,
+    "main_plates_total_filament_g": 622.31,
+    "optional_single_color_total_seconds": 58301,
     "fit_test_included_in_total": false,
     "physical_test_print": false,
     "print_job_sent": false
@@ -209,7 +219,7 @@
           "color": "#F5C39E"
         },
         {
-          "label": "眉毛與小鬍子",
+          "label": "眉毛、小鬍子與貓鬚",
           "slot": 2,
           "color": "#27272B"
         },

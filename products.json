@@ -232,73 +232,73 @@
     "id": "kitty",
     "name": "Hello Kitty 小陳晉",
     "category": "角色造型",
-    "image": "assets/hello_kitty_100mm/inset-bow-assembled.png",
-    "description": "寬身吊帶裝、融合貓耳，再繫上招牌紅色蝴蝶結。",
+    "image": "assets/hello_kitty_100mm/whiskers-assembled.png",
+    "description": "雙頰各三道立體貓鬚，搭配融合貓耳、紅色蝴蝶結與圓胖吊帶裝。",
     "price": 0,
     "variants": [
       {
         "id": "assembled-color",
         "construction": "分件組裝",
         "label": "原配色・三件組裝",
-        "note": "寬身、融合貓耳與紅色蝴蝶結。頭髮／貓耳／蝴蝶結以黑白紅三色合印成一件，組裝維持三件。",
+        "note": "雙頰各三道立體貓鬚，沿用臉部黑色線材；維持三件組裝。已有目前寬身版身體與頭髮者，只需重印 02 臉。",
         "price": 0,
         "files": [
           "HelloKitty_01_吊帶裝與手腳_三色合印.3mf",
           "HelloKitty_02_臉_原色三色合印.3mf",
           "HelloKitty_03_黑髮貓耳與蝴蝶結_三色合印.3mf"
         ],
-        "bundle": "downloads/kitty-bow-assembled-color.zip",
-        "size": 16.1,
+        "bundle": "downloads/kitty-whiskers-assembled-color.zip",
+        "size": 16.4,
         "guide": "HelloKitty_組裝說明.html",
-        "image": "assets/hello_kitty_100mm/inset-bow-assembled.png",
-        "time": "32 小時 52 分"
+        "image": "assets/hello_kitty_100mm/whiskers-assembled.png",
+        "time": "35 小時 52 分"
       },
       {
         "id": "assembled-fast",
         "construction": "分件組裝",
         "label": "省時補色版・三件組裝",
-        "note": "保留蝴蝶結立體造型。身體、頭髮單色印出後自行補色，臉仍保留三色。",
+        "note": "臉保留三色與黑色貓鬚；身體、頭髮單色列印後自行補色，維持三件組裝。",
         "price": 0,
         "files": [
           "HelloKitty_04_吊帶裝與手腳_省時單色版.3mf",
           "HelloKitty_02_臉_原色三色合印.3mf",
           "HelloKitty_05_黑髮貓耳與蝴蝶結_省時單色版.3mf"
         ],
-        "bundle": "downloads/kitty-bow-assembled-fast.zip",
-        "size": 14.8,
+        "bundle": "downloads/kitty-whiskers-assembled-fast.zip",
+        "size": 15.1,
         "guide": "HelloKitty_組裝說明.html",
-        "image": "assets/hello_kitty_100mm/inset-bow-assembled.png",
-        "time": "13 小時 9 分"
+        "image": "assets/hello_kitty_100mm/whiskers-assembled.png",
+        "time": "16 小時 11 分"
       },
       {
         "id": "solid-color",
         "construction": "一體成型",
         "label": "原配色一體成型",
-        "note": "整隻一次印出，不需組裝；保留 7 色，會換線並產生擦料。完整原配色共七色，需要七個可用供料槽位；單台四槽 AMS 無法一次提供七色。若只有四槽，請選分件組裝原配色版。",
+        "note": "保留原配色與黑色立體貓鬚，沿用既有七色，不增加線材顏色。 完整原配色需七個可用供料槽位；只有四槽 AMS 時請選原配色三件組裝。",
         "price": 0,
         "files": [
           "HelloKitty_一體成型_原配色.3mf"
         ],
-        "bundle": "downloads/kitty-bow-solid-color.zip",
-        "size": 15.6,
+        "bundle": "downloads/kitty-whiskers-solid-color.zip",
+        "size": 15.9,
         "guide": "HelloKitty_一體成型_原配色說明.html",
-        "image": "assets/hello_kitty_100mm/inset-bow-solid-color.png",
-        "time": "42 小時 2 分"
+        "image": "assets/hello_kitty_100mm/whiskers-solid-color.png",
+        "time": "42 小時 38 分"
       },
       {
         "id": "solid-mono",
         "construction": "一體成型",
         "label": "單色一體成型",
-        "note": "單一連通實體，整件一次印出，不需組裝。此檔只有一種線材；若要商品示意配色需自行上色。",
+        "note": "一體單色列印，保留六道立體貓鬚，可自行上色。",
         "price": 0,
         "files": [
           "HelloKitty_一體成型_單色.3mf"
         ],
-        "bundle": "downloads/kitty-bow-solid-mono.zip",
-        "size": 13.7,
+        "bundle": "downloads/kitty-whiskers-solid-mono.zip",
+        "size": 13.9,
         "guide": "HelloKitty_一體成型說明.html",
-        "image": "assets/hello_kitty_100mm/inset-bow-solid.png",
-        "time": "7 小時 51 分"
+        "image": "assets/hello_kitty_100mm/whiskers-solid.png",
+        "time": "7 小時 52 分"
       }
     ]
   }

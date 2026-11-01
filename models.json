@@ -73,47 +73,32 @@
     {
       "file": "HelloKitty_03_黑髮貓耳與蝴蝶結_三色合印.3mf",
       "bytes": 5458356,
-      "sha256": "b7a94c034c4dce00b1cbd4a6e04cab2f4fc27bcc0ec75a5af22fb5100824d86e"
+      "sha256": "b1241fc65bcfe87a65fa97f155d1ae3a914b41ff659adbee7ea42c1732f965ff"
     },
     {
       "file": "HelloKitty_02_臉_原色三色合印.3mf",
-      "bytes": 1500802,
-      "sha256": "3960e3a1eb192f13359b8cbb47efb66ce0df82642ea70100b3e3d0fbabcea0fb"
+      "bytes": 1828983,
+      "sha256": "796860bd5325fc8fdd3c4c358707359da3b6785ea39de91f24873f9360f2f6c7"
     },
     {
       "file": "HelloKitty_05_黑髮貓耳與蝴蝶結_省時單色版.3mf",
       "bytes": 5293871,
-      "sha256": "e9e8f2bb70b984fb6016b53ab69ebdf4cc1cc720db89cc657996105da537686e"
+      "sha256": "f06fa0ece31a3433adcd41f13649e1604e18367a7e44ec2e2f1149d7528bb79e"
     },
     {
       "file": "HelloKitty_04_吊帶裝與手腳_省時單色版.3mf",
       "bytes": 8780179,
-      "sha256": "7876279afa179c82b0e3511ddb7537d8e8be5e287413e964781403a7fe2cd41a"
+      "sha256": "bafeba81986a7ae432679d04db1d7238675bb4e6da547621c519f0e2e4285b97"
     },
     {
       "file": "HelloKitty_01_吊帶裝與手腳_三色合印.3mf",
       "bytes": 9998254,
-      "sha256": "3dbfa066cdaf1fbd357050b3546ff3a61560c06335b135774b6f91934eb4ebba"
+      "sha256": "2dc5fba04b0a57f346cc087dec310a3ca9c85a32656b50dd926a94b1b0e4cfc9"
     },
     {
       "file": "HelloKitty_一體成型_單色.3mf",
-      "bytes": 14482571,
-      "sha256": "b10b0902bed4fe1452e83badeeac3a0877718219ab2221743a67301c8ccfd84d"
-    },
-    {
-      "file": "幽靈_一體成型_原配色.3mf",
-      "bytes": 4019957,
-      "sha256": "5bd7ca5de0838b5028de9ee0ae388092d4f277aa7171ae2c93768de94cb02ce5"
-    },
-    {
-      "file": "萬聖節_一體成型_原配色.3mf",
-      "bytes": 3315594,
-      "sha256": "c52cfb90911f7e6a0bae9bb73ab6bd1b376179cb864b7a55892509be4ccd0987"
-    },
-    {
-      "file": "HelloKitty_一體成型_原配色.3mf",
-      "bytes": 16401198,
-      "sha256": "bff5668b3f2c30f2be4226f57000da2ec2c7a56dbe10acb307e2466dfee9cd77"
+      "bytes": 14626804,
+      "sha256": "0512c4131e7dca1f296adacaded383b9823de82d5165834d8482bf791a12f87b"
     },
     {
       "file": "月夜伯爵_02_臉_原色三色合印.3mf",
@@ -139,6 +124,21 @@
       "file": "月夜伯爵_一體成型_單色.3mf",
       "bytes": 2743894,
       "sha256": "1628c2eb431267a9f4f05a98f9c1a2c413a437a4803bbc221c3212257a717290"
+    },
+    {
+      "file": "幽靈_一體成型_原配色.3mf",
+      "bytes": 4019957,
+      "sha256": "5bd7ca5de0838b5028de9ee0ae388092d4f277aa7171ae2c93768de94cb02ce5"
+    },
+    {
+      "file": "萬聖節_一體成型_原配色.3mf",
+      "bytes": 3315594,
+      "sha256": "c52cfb90911f7e6a0bae9bb73ab6bd1b376179cb864b7a55892509be4ccd0987"
+    },
+    {
+      "file": "HelloKitty_一體成型_原配色.3mf",
+      "bytes": 16728703,
+      "sha256": "b5ef60a905f6f465777cff2d9ec7bd5f44f66f6a84216fba0a13f2c0fe4ede7f"
     }
   ]
 }

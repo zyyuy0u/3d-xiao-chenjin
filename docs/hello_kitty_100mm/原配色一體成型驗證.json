@@ -12,7 +12,7 @@
       "hex": "#F5C39E"
     },
     {
-      "name": "黑髮眉毛與鬍子",
+      "name": "黑髮眉毛鬍子與貓鬚",
       "hex": "#27272B"
     },
     {
@@ -32,12 +32,12 @@
       "hex": "#E82750"
     }
   ],
-  "seconds": 151376,
-  "filament_g": 749.36,
+  "seconds": 153488,
+  "filament_g": 760.75,
   "components": 1,
   "material_regions_closed": true,
   "max_boolean_overlap_mm3": 0.10212479807149788,
-  "union_difference_mm3": 0.001124601170886308,
+  "union_difference_mm3": 0.0011282961932010949,
   "native_roundtrip_error_mm": 1.7948860103999848e-05,
   "mesh_repairs": 0,
   "physical_test_print": false

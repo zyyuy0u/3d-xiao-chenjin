@@ -12,5 +12,15 @@
   "ear_inset_additional_mm": {
     "back": 6,
     "down": 3
+  },
+  "cat_whiskers": {
+    "strokes_per_cheek": 3,
+    "radius_mm": [
+      0.47,
+      0.55
+    ],
+    "color": "#27272B",
+    "additional_filaments": 0,
+    "stroke_volume_mm3": 61.459461017969986
   }
 }
