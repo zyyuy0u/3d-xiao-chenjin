@@ -21,6 +21,11 @@
     ],
     "color": "#27272B",
     "additional_filaments": 0,
-    "stroke_volume_mm3": 61.459461017969986
+    "stroke_volume_mm3": 30.020713932144073,
+    "projected_length_mm": [
+      4.3,
+      4.5
+    ],
+    "revision": "short_round"
   }
 }
