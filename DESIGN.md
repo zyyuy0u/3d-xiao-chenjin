@@ -9,3 +9,5 @@ Construction variants stay inside each product detail. A native radio group choo
 The homepage hero uses a bronze Halloween arch around the real ghost render, with restrained orange lighting, geometric bat and pumpkin ornaments. Keep the rest of the established store design. Original-color one-piece variants use actual color-partitioned mesh renders and expose filament requirements, including seven slots for Kitty. Kitty stays black-haired with white ears; never use the old white hood.
 
 Moon Count uses the existing holiday category and the homepage Halloween doorway. Its wings, collar, burgundy vest and gold crescent are modeled geometry; previews come from these actual meshes.
+
+The Halloween doorway uses concentric bronze archivolts, carved pilasters, a crescent crest, paired candle lanterns and restrained low mist. The Count remains an actual model render. Decoration is inline geometric SVG with no pointer interaction; the arch still links to the collection.
