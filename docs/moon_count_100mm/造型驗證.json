@@ -1,5 +1,5 @@
 {
-  "name": "\u6708\u591c\u4f2f\u7235\u5c0f\u9673\u6649",
+  "name": "月夜伯爵小陳晉",
   "physical_pieces": 3,
   "torso_width_mm": 84,
   "torso_depth_mm": 60,
@@ -13,8 +13,17 @@
     "gold buttons",
     "raised lapel piping",
     "curved scalloped wing membrane",
-    "sculpted cape folds"
+    "sculpted cape folds",
+    "cupped wing membranes",
+    "tapered curved finger bones",
+    "rounded scallop edging",
+    "burgundy-lined upright collar",
+    "broad folded lapels"
   ],
-  "minimum_wing_thickness_mm": 5,
-  "physical_test_print": false
+  "nominal_wing_membrane_thickness_mm": 4.2,
+  "wing_membrane_scoop_mm": 3.2,
+  "lapel_thickness_mm": 3.1,
+  "collar_height_mm": 64,
+  "physical_test_print": false,
+  "enclosed_root_voids_filled_mm3": 35.91745934998258
 }

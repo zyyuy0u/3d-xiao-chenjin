@@ -20,7 +20,7 @@
         "color": "#E5B552"
       }
     ],
-    "max_roundtrip_error_mm": 1.9058102015087637e-05,
+    "max_roundtrip_error_mm": 1.6211212006525848e-05,
     "all_volumes_closed": true,
     "mesh_repairs": 0,
     "prime_tower": true

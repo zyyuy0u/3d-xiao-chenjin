@@ -3,8 +3,8 @@
     "id": "count",
     "name": "月夜伯爵小陳晉",
     "category": "節日限定",
-    "image": "assets/moon_count_100mm/refined-assembled.png",
-    "description": "更圓胖的酒紅禮服，配上弧形蝠翼、立體衣襟與新月胸針。",
+    "image": "assets/moon_count_100mm/wingcollar-assembled.png",
+    "description": "圓胖禮服搭配凹面蝠翼、酒紅襯領與立體寬翻領。",
     "price": 0,
     "variants": [
       {
@@ -18,11 +18,11 @@
           "月夜伯爵_02_臉_原色三色合印.3mf",
           "月夜伯爵_03_頭髮_黑色.3mf"
         ],
-        "bundle": "downloads/moon-count-refined-assembled-color.zip",
-        "size": 3.4,
+        "bundle": "downloads/moon-count-wingcollar-assembled-color.zip",
+        "size": 3.8,
         "guide": "月夜伯爵_列印與組裝說明.html",
-        "image": "assets/moon_count_100mm/refined-assembled.png",
-        "time": "29 小時 33 分"
+        "image": "assets/moon_count_100mm/wingcollar-assembled.png",
+        "time": "32 小時 41 分"
       },
       {
         "id": "solid-color",
@@ -33,11 +33,11 @@
         "files": [
           "月夜伯爵_一體成型_原配色.3mf"
         ],
-        "bundle": "downloads/moon-count-refined-solid-color.zip",
-        "size": 2.9,
+        "bundle": "downloads/moon-count-wingcollar-solid-color.zip",
+        "size": 3.3,
         "guide": "月夜伯爵_列印與組裝說明.html",
-        "image": "assets/moon_count_100mm/refined-solid-color.png",
-        "time": "35 小時 27 分"
+        "image": "assets/moon_count_100mm/wingcollar-solid-color.png",
+        "time": "38 小時 38 分"
       },
       {
         "id": "solid-mono",
@@ -48,11 +48,11 @@
         "files": [
           "月夜伯爵_一體成型_單色.3mf"
         ],
-        "bundle": "downloads/moon-count-refined-solid-mono.zip",
-        "size": 2.3,
+        "bundle": "downloads/moon-count-wingcollar-solid-mono.zip",
+        "size": 2.6,
         "guide": "月夜伯爵_列印與組裝說明.html",
-        "image": "assets/moon_count_100mm/refined-solid.png",
-        "time": "8 小時 29 分"
+        "image": "assets/moon_count_100mm/wingcollar-solid.png",
+        "time": "8 小時 36 分"
       }
     ]
   },
