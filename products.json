@@ -36,7 +36,7 @@
         "bundle": "downloads/moon-count-blackpanels-solid-color.zip",
         "size": 3.2,
         "guide": "月夜伯爵_列印與組裝說明.html",
-        "image": "assets/moon_count_100mm/blackpanels-solid-color.png",
+        "image": "assets/moon_count_100mm/full-frame-solid-color.png",
         "time": "35 小時 36 分"
       },
       {
@@ -51,7 +51,7 @@
         "bundle": "downloads/moon-count-blackpanels-solid-mono.zip",
         "size": 2.6,
         "guide": "月夜伯爵_列印與組裝說明.html",
-        "image": "assets/moon_count_100mm/blackpanels-solid.png",
+        "image": "assets/moon_count_100mm/full-frame-solid.png",
         "time": "8 小時 35 分"
       }
     ]
