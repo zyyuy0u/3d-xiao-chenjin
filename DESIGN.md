@@ -11,3 +11,5 @@ The homepage hero uses a bronze Halloween arch around the real ghost render, wit
 Moon Count uses the existing holiday category and the homepage Halloween doorway. Its wings, collar, burgundy vest and gold crescent are modeled geometry; previews come from these actual meshes.
 
 The Halloween doorway uses concentric bronze archivolts, carved pilasters, a crescent crest, paired candle lanterns and restrained low mist. The Count remains an actual model render. Decoration is inline geometric SVG with no pointer interaction; the arch still links to the collection.
+
+Doorway joinery uses a continuous pilaster panel with stepped capitals and bases, non-intersecting inset rails and evenly spaced medallions. The crescent crest uses mirrored scrolls; the narrow-phone caption stays on one line.

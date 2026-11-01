@@ -14,4 +14,4 @@
 .portal-door .art-caption>span span{margin-left:6px}
 .halloween-portal:has(a:focus-visible){outline:2px solid var(--orange);outline-offset:5px;border-radius:50% 50% 3px 3px / 40% 40% 3px 3px}
 @media(max-width:1000px) and (min-width:601px){.portal-door .art-caption{left:15px;right:15px;bottom:14px}.portal-door .art-caption strong{font-size:17px}.portal-door .art-caption>span{font-size:11px}}
-@media(max-width:600px){.halloween-portal{max-width:420px;width:100%;justify-self:center}.halloween-portal .hero-art{width:auto;max-width:none}.portal-door .art-caption{bottom:18px;left:28px;right:28px}.portal-door .art-caption strong{font-size:20px}.portal-door .art-caption>span{font-size:11px}}
+@media(max-width:600px){.halloween-portal{max-width:420px;width:100%;justify-self:center}.halloween-portal .hero-art{width:auto;max-width:none}.portal-door .art-caption{bottom:18px;left:28px;right:28px}.portal-door .art-caption strong{font-size:clamp(15px,4.4vw,20px)}.portal-door .art-caption>span{font-size:11px}}
